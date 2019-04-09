@@ -1,0 +1,91 @@
+{
+    "importAmpExtension": {
+        "prefix": "import-custom-element",
+        "body": [
+            "<script async custom-element=\"amp-${1}\" src=\"https://cdn.ampproject.org/v0/amp-${1}-0.1.js\"></script>"
+        ],
+        "description": "import AMP extension"
+    },
+    "importAmpExtensionMustache": {
+        "prefix": "import-custom-template",
+        "body": [
+            "<script async custom-template=\"amp-mustache\" src=\"https://cdn.ampproject.org/v0/amp-mustache-0.1.js\"></script>"
+        ],
+        "description": "import AMP extension"
+    },
+    "ampForm": {
+        "prefix": "amp-form",
+        "body": [
+            "<form method=\"${1}\"",
+            "      action-xhr=\"${2}\"",
+            "      action=\"${2}\"",
+            "      target=\"_top\">",
+            "  ${3}",
+            "</form>"
+        ],
+        "description": "create amp form"
+    },
+    "ampList": {
+        "prefix": "amp-list",
+        "body": [
+            "<amp-list layout=\"fixed-height\" height=\"${1}\"",
+            "          src=\"${2}\">",
+            "  <template type=\"amp-mustache\">",
+            "    ${3}",
+            "  </template>",
+            "</amp-list>"
+        ],
+        "description": "create amp list"
+    },
+    "paws": {
+        "prefix": "paws",
+        "body": [
+            "&#128062;"
+        ],
+        "description": "print paws"
+    },
+    "ampBindMacro": {
+        "prefix": "amp-bind-macro",
+        "body": [
+            "<amp-bind-macro id=\"${1}\"",
+            "                arguments=\"${2}\"", 
+            "                expression=\"${3}\">",
+            "</amp-bind-macro>"
+        ]
+    },
+    "ampState": {
+        "prefix": "amp-state",
+        "body": [
+            "<amp-state id=\"${1}\" src=\"${2}\"></amp-state>"
+        ]
+    },
+    "ampDatePicker": {
+        "prefix": "amp-date-picker-range",
+        "body": [
+            "<amp-date-picker type=\"${1}\"",
+            "                 locale=\"en\"",
+            "                 show-clear-dates",
+            "                 month-format=\"MMM\">",
+            "  <input amp-date-placeholder-start placeholder=\"${2}\" id=\"${2}\"/>",
+            "  <input amp-date-placeholder-end placeholder=\"${3}\" id=\"${3}\"/>",
+            "</amp-date-picker>"
+        ]
+    },
+    "ampImg": {
+        "prefix": "amp-img-fixed-layout",
+        "body": [
+            "<amp-img width=\"${1}\" height=\"${2}\" src=\"${3}\"></amp-img>"
+        ]
+    },
+    "buttonStyle": {
+        "prefix": "buttonStyle",
+        "body": [
+            "button {",
+            "   background: #db004d;",
+            "   color: white;",
+            "   margin: 1rem 0;",
+            "   padding: 0.5rem;",
+            "}"
+        ]
+    }
+}
