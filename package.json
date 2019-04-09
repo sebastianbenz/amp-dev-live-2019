@@ -1,0 +1,28 @@
+{
+  "name": "amp-dev-live-2019",
+  "version": "1.0.0",
+  "description": "An AMP Live coding session.",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint \"**/*.js\" --ignore-path .gitignore",
+    "lint:fix": "eslint \"**/*.js\" --fix --ignore-path .gitignore",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianbenz/amp-dev-live-2019.git"
+  },
+  "author": "AMPHTML Authors",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/sebastianbenz/amp-dev-live-2019/issues"
+  },
+  "homepage": "https://github.com/sebastianbenz/amp-dev-live-2019#readme",
+  "devDependencies": {
+    "eslint": "5.16.0",
+    "eslint-config-google": "0.12.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
