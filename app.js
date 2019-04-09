@@ -47,6 +47,8 @@ app.get('/', async (req, res) => {
   })
 })
 
+app.use(require('./lib/photo-stream.js'));
+
 app.use(express.static('public'))
 
 app.listen(port, () => console.log(`App listening on port ${port}!`))
