@@ -1,0 +1,12 @@
+{
+  "editor.tabCompletion": "on",
+  "prettier.singleQuote": true,
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "html.format.unformatted": ["noscript", "style", "head"],
+  "html.format.contentUnformatted": ["noscript", "style", "head"],
+  "html.format.wrapLineLength": 1000
+}

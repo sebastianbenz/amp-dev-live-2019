@@ -14,12 +14,39 @@
  * limitations under the License.
  */
 
-'use strict';
+'use strict'
 
-const express = require('express');
-const app = express();
-const port = 8080;
+const express = require('express')
+const app = express()
+const nunjucks = require('nunjucks')
+const port = 8080
+const twitter = require('./lib/twitter')
+const { join } = require('path')
 
-app.use(express.static('public'));
+app.set('views', join(__dirname, '/public'))
+nunjucks.configure(__dirname + '/public', {
+  autoescape: true,
+  express: app,
+  noCache: true,
+  tags: {
+    blockStart: '[%',
+    blockEnd: '%]',
+    variableStart: '[[',
+    variableEnd: ']]',
+    commentStart: '[#',
+    commentEnd: '#]'
+  }
+})
 
-app.listen(port, () => console.log(`App listening on port ${port}!`));
+app.get('/', async (req, res) => {
+  //const tweets = await twitter.search('#ampconf')
+  const tweets = await twitter.search('#dogsoftwitter')
+  return res.render('index.html', {
+    title: 'Hello World',
+    tweets
+  })
+})
+
+app.use(express.static('public'))
+
+app.listen(port, () => console.log(`App listening on port ${port}!`))
