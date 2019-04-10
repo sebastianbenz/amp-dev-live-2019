@@ -18,36 +18,42 @@
 
 const express = require('express')
 const app = express()
-const nunjucks = require('nunjucks')
+const Mustache = require('mustache')
 const port = 8080
 const twitter = require('./lib/twitter')
 const { join } = require('path')
+const { promisify } = require('util')
+const { readFile } = require('fs')
+const readFileAsync = promisify(readFile)
+Mustache.tags = ['[[', ']]']
 
-app.set('views', join(__dirname, '/public'))
-nunjucks.configure(__dirname + '/public', {
-  autoescape: true,
-  express: app,
-  noCache: true,
-  tags: {
-    blockStart: '[%',
-    blockEnd: '%]',
-    variableStart: '[[',
-    variableEnd: ']]',
-    commentStart: '[#',
-    commentEnd: '#]'
-  }
-})
+const agenda = require('./lib/agenda.json')
 
-app.get('/', async (req, res) => {
+app.get(['/', '/*.html'], async (req, res) => {
   //const tweets = await twitter.search('#ampconf')
   const tweets = await twitter.search('#dogsoftwitter')
-  return res.render('index.html', {
-    title: 'Hello World',
-    tweets
-  })
+  res.send(
+    await render(req.path, {
+      title: 'hello world',
+      tweets,
+      agenda
+    })
+  )
 })
 
-app.use(require('./lib/photo-stream.js'));
+async function render(filePath, context) {
+  if (filePath.endsWith('/')) {
+    filePath += 'index.html';
+  }
+  const template = await readFileAsync(
+    join(__dirname, 'public', filePath),
+    'utf-8'
+  )
+  console.log('template', template);
+  return Mustache.render(template, context)
+}
+
+app.use(require('./lib/photo-stream.js'))
 
 app.use(express.static('public'))
 

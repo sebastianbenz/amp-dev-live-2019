@@ -24,7 +24,10 @@
   },
   "dependencies": {
     "express": "4.16.4",
+    "js-yaml": "^3.13.1",
     "linkifyjs": "^2.1.8",
+    "mustache": "^3.0.1",
+    "mustache-express": "^1.2.8",
     "nunjucks": "^3.2.0",
     "twit": "2.2.11",
     "twitter": "^1.7.1"
