@@ -6,6 +6,9 @@
     <meta name="description" content="The AMPConf website - build live @AMPConf!">
     <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
     <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
+    <script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
+    <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-latest.js"></script>
+    <script async custom-element="amp-lightbox-gallery" src="https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js"></script>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <style amp-custom>
       :root {
@@ -62,6 +65,49 @@
       #toolbar [selected] {
           opacity: 1;
       }
+          
+    amp-img {
+      border-radius: 8px;
+    }
+    
+    
+    .pin-container {
+      border-radius: 8px;
+      background-color: #fefefe;
+      padding: 8px;
+      margin: 5px;
+      position: relative;
+      width: 200px;
+      height: 200px;
+    }
+    
+    .pin-container:hover {
+       background-color: #eeeeee;
+    }
+    amp-img.contain img {
+      object-fit: contain;
+    }
+
+    div[role="list"] {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: flex-start;
+      align-content: flex-start;
+      justify-content: center;
+    }
+    
+    #container {
+      min-height: 200px;
+    }
+    
+    #list {
+      position: static;
+      height: auto;
+      min-height: 100px;
+      margin-bottom: 3.5em;
+    }
     </style>
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <link rel="canonical" href=".">
@@ -74,7 +120,20 @@
       <amp-selector id="tabs">
         <section id="schedule" option selected>Schedule</section>
         <section id="twitter" option>Tweets</section>
-        <section id="photos" option>Photos</section>
+        <section id="photos" option>
+          <amp-list id="list"
+          layout="fixed-height"
+          height="80vh"
+          src="http://localhost:8080/photos"
+          load-more="auto"
+          load-more-bookmark="next">
+          <template type="amp-mustache">
+            <div class="pin-container">
+              <amp-img src="{{imageUrl}}" layout="fill" class="contain" lightbox></amp-img>
+            </div>
+          </template>
+        </amp-list>    
+        </section>
       </amp-selector>
     <amp-selector id="toolbar" on="select:tabs.toggle(index=event.targetOption, value=true)">
         <div option=0 selected>Schedule</div>
