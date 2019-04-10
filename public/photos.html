@@ -70,9 +70,7 @@
       border-radius: 8px;
     }
     
-    
     .pin-container {
-      border-radius: 8px;
       background-color: #fefefe;
       padding: 8px;
       margin: 5px;
@@ -118,11 +116,18 @@
     <header>
       AMPConf Live!
     </header>
-      <amp-selector id="tabs">
-        <section id="schedule" option selected>Schedule</section>
-        <section id="twitter" option>Tweets</section>
-        <section id="photos" option>Photos</section>
-      </amp-selector>
+    <amp-list id="list"
+        layout="fixed-height"
+        height="80vh"
+        src="suddenlypaul.json"
+        load-more="auto"
+        load-more-bookmark="next">
+        <template type="amp-mustache">
+        <div class="pin-container">
+            <amp-img src="{{imageUrl}}" layout="fill" class="contain" lightbox></amp-img>
+        </div>
+        </template>
+    </amp-list>  
     <amp-selector id="toolbar" on="select:tabs.toggle(index=event.targetOption, value=true)">
         <div option=0 selected>Schedule</div>
         <div option=1>Twitter</div>
