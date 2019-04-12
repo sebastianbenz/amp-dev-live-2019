@@ -7,6 +7,7 @@
     <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
     <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
     <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+    <script async custom-element="amp-script" src="https://cdn.ampproject.org/v0/amp-script-0.1.js"></script>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <style amp-custom>
       :root {
@@ -64,6 +65,14 @@
         display: flex;
         flex-direction: column;
       }
+      #active-session {
+        background: #ffdc00;
+        margin: 0.5rem 0;
+        padding: 0.5rem 0.25rem ;
+        text-align: center;
+        line-height: 36px;
+        border-radius: 8px;
+      }
     </style>
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <link rel="canonical" href=".">
@@ -71,10 +80,16 @@
   </head>
   <body>
     <header class="navigation">
-      <h1>[[title]]</h1>
+      <h1>⚡ AMPConf 2019</h1>
     </header>
     <main>
       <section [hidden]="tab > 0">
+          <amp-script class="infobar"
+          layout="fixed-height" 
+          height="64"
+          src="/js/active-session.js">
+            <h3 id="active-session">Loading...</h3>       
+        </amp-script>
         [[#agenda.days]]
         <div id="[[id]]">
           <h2>[[title]]</h2>

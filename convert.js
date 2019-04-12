@@ -13,11 +13,13 @@ try {
   const day1 = {
     id: 'day1',
     title: 'Day 1',
+    first: true,
     sessions: []
   }
   const day2 = {
     id: 'day2',
     title: 'Day 2',
+    first: false,
     sessions: []
   }
   const days = [day1, day2]
@@ -28,7 +30,8 @@ try {
   day1.sessions = addSessions(
     doc.agenda.day_1,
     doc.speakers,
-    new Date(2019, 3, 17)
+    //new Date(2019, 3, 17)
+    new Date()
   )
   day2.sessions = addSessions(
     doc.agenda.day_2,
@@ -41,6 +44,14 @@ try {
     JSON.stringify(agenda, null, 2),
     'utf-8'
   )
+
+  const sessions = day1.sessions.concat(day2.sessions)
+
+  fs.writeFileSync(
+    './public/js/sessions.json',
+    JSON.stringify(sessions, null, 2),
+    'utf-8'
+  )
 } catch (e) {
   console.log(e)
 }
@@ -49,14 +60,21 @@ function addSessions(agenda, speakers, date) {
   const result = []
 
   for (const session of agenda) {
-    date.setHours(session.time.substring(0, 2), session.time.substring(2, 2))
+    const hours = session.time.substring(0, 2)
+    date.setHours(hours)
+    const minutes = session.time.substring(2)
+    date.setMinutes(minutes)
+    console.log(hours, minutes)
+    const endDate = new Date(date.getTime())
+    endDate.setMinutes(endDate.getMinutes() + 30)
     console.log(date)
     const s = {
       title: session.title,
       description: session.description,
       speakers: formatSpeakers(speakers, session.speakers),
       time: session.time,
-      date: date.toUTCString() //
+      start: date.toUTCString(),
+      end: endDate.toUTCString()
     }
     console.log(s)
     result.push(s)
