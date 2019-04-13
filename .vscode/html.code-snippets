@@ -73,10 +73,10 @@
     "ampScript": {
         "prefix": "amp-script",
         "body": [
-            "<amp-script layout=\"${container}\"", 
-            "    height=\"${1}\"",
-            "    src=\"${2}\">",
-            "  ${3}",
+            "<amp-script layout=\"${1}\"", 
+            "    height=\"${2}\"",
+            "    src=\"${3}\">",
+            "  ${4}",
             "</amp-script>"
         ]
     },
@@ -105,6 +105,23 @@
             "    [[{text}]]",
             "</div>",
             "[[/tweets]]"
+        ]
+    },
+    "agenda": {
+        "prefix": "agenda",
+        "body": [
+            "[[#agenda.days]]",
+            "<div id=\"[[id]]\">",
+            "<h2>[[title]]</h2>",
+            "[[#sessions]]",
+            "<div class=\"session\">",
+            "  <strong>[[title]]</strong>",
+            "  <div>[[{ speakers }]]</div>",
+            "  <time>[[time]]</time>",
+            "</div>",
+            "[[/sessions]]",
+            "</div>",
+            "[[/agenda.days]]"
         ]
     }
 }
