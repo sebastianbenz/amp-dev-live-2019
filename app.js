@@ -31,18 +31,23 @@ Mustache.tags = ['[[', ']]']
 const agenda = require('./lib/agenda.json')
 
 const ampCorsMiddleware = ampCors({ verbose: true })
+
 app.use(ampCorsMiddleware)
 
 app.get(['/', '/*.html'], async (req, res) => {
-  //const tweets = await twitter.search('#ampconf')
-  const tweets = await twitter.search('#dogsoftwitter')
-  res.send(
-    await render(req.path, {
-      title: 'hello world',
-      tweets,
-      agenda
-    })
-  )
+  try {
+    const tweets = await twitter.search('#ampconf', true)
+    //const tweets = await twitter.search('#dogsoftwitter')
+    res.send(
+      await render(req.path, {
+        title: 'hello world',
+        tweets,
+        agenda
+      })
+    )
+  } catch (error) {
+    res.status(500).send(error)
+  }
 })
 
 app.use(require('./lib/photo-stream.js'))
