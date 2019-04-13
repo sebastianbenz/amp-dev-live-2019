@@ -95,5 +95,16 @@
                     "  </div>",
                     "</amp-live-list>"
         ]
+    },
+    "tweets": {
+        "prefix": "tweets",
+        "body": [
+            "[[#tweets]]",
+            "<div class=\"tweet\">",
+            "    <strong>[[user.screen_name]]:</strong>",
+            "    [[{text}]]",
+            "</div>",
+            "[[/tweets]]"
+        ]
     }
 }

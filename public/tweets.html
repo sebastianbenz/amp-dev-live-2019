@@ -1,9 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
 <html ⚡ lang="en">
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+    <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
+    <script async custom-element="amp-live-list" src="https://cdn.ampproject.org/v0/amp-live-list-0.1.js"></script>
     <style amp-custom>
       :root {
         --header-height: 56px;
@@ -38,6 +41,23 @@
       .top {
         top: 0;
       }
+      .toolbar {
+        display: flex;
+        justify-content: space-around;
+      }
+      amp-selector.toolbar [selected] {
+        outline: none;
+        opacity: 1;
+      }
+      .toolbar > * {
+        opacity: .5;
+      }
+      .tweet {
+        margin: .5rem;
+        padding: .5rem;
+        background: #f2f2f2;
+        border-radius: 8px;
+      }
     </style>
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <link rel="canonical" href=".">
@@ -48,7 +68,40 @@
       <h1>AMPConf 2019 - Live!</h1>
     </header>
     <main>
-        Hello World
+      <section [hidden]="tab > 0">Agenda</section>
+
+
+      <section [hidden]="tab != 1" hidden>
+
+        <amp-live-list layout="container"
+            data-poll-interval="15000"
+            data-max-items-per-page="1"
+            id="liveListTweets">
+          <button update on="tap:liveListTweets.update">Update</button>
+          <div items>
+            <div id="tweets" data-sort-time="[[timestamp]]">
+                [[#tweets]]
+                <div class="tweet">
+                    <strong>[[user.screen_name]]:</strong>
+                    [[{text}]]
+                </div>
+                [[/tweets]]      
+            </div>
+          </div>
+        </amp-live-list>
+        
+      </section>
+
+
+      <section [hidden]="tab != 2" hidden>Photos</section>
+
+
     </main>
+    <amp-selector class="nav-bar bottom toolbar"
+      on="select:AMP.setState({tab: event.targetOption})">
+      <div option="0" selected>Agenda</div>
+      <div option="1">Tweets</div>
+      <div option="2">Photos</div>
+    </amp-selector>
   </body>
 </html>

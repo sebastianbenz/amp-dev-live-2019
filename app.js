@@ -42,7 +42,8 @@ app.get(['/', '/*.html'], async (req, res) => {
       await render(req.path, {
         title: 'hello world',
         tweets,
-        agenda
+        agenda,
+        timestamp: new Date().getTime()
       })
     )
   } catch (error) {
