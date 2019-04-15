@@ -10,12 +10,19 @@
         --color-primary: #005af0;
         --color-primary-text: white;
         --color-accent: #ffdc00;
+        --color-bg-light: #f6f8fa;
       }
       body {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
       }
       main {
-        padding: var(--header-height) 0;
+        padding: var(--header-height) .5rem;
+      }
+      .bottom {
+        bottom: 0;
+      }
+      .top {
+        top: 0;
       }
       .nav-bar h1 {
         margin: 0;
@@ -32,11 +39,11 @@
         width: 100%;
         z-index: 1000;
       }
-      .bottom {
-        bottom: 0;
-      }
-      .top {
-        top: 0;
+      .card {
+        background: var(--color-bg-light);
+        padding: .5rem;
+        margin: .5rem 0;
+        border-radius: 8px;
       }
     </style>
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
@@ -48,7 +55,18 @@
       <h1>AMPConf 2019 - Live!</h1>
     </header>
     <main>
-        Hello World
+      [[#agenda.days]]
+      <div id="[[id]]">
+      <h2>[[title]]</h2>
+      [[#sessions]]
+      <div class="card">
+        <strong><time>[[time]]</time> [[title]]</strong>
+        <div>[[{ speakers }]]</div>
+        
+      </div>
+      [[/sessions]]
+      </div>
+      [[/agenda.days]]
     </main>
   </body>
 </html>
