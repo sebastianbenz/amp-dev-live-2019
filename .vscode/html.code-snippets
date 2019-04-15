@@ -16,7 +16,7 @@
     "ampForm": {
         "prefix": "amp-form",
         "body": [
-            "<form method=\"${1}\"",
+            "<form method=\"${post}\"",
             "      action-xhr=\"${2}\"",
             "      action=\"${2}\"",
             "      target=\"_top\">",
@@ -37,19 +37,12 @@
         ],
         "description": "create amp list"
     },
-    "paws": {
-        "prefix": "paws",
-        "body": [
-            "&#128062;"
-        ],
-        "description": "print paws"
-    },
     "ampBindMacro": {
         "prefix": "amp-bind-macro",
         "body": [
             "<amp-bind-macro id=\"${1}\"",
-            "                arguments=\"${2}\"", 
-            "                expression=\"${3}\">",
+            "    arguments=\"${2}\"", 
+            "    expression=\"${3}\">",
             "</amp-bind-macro>"
         ]
     },
@@ -77,15 +70,58 @@
             "<amp-img width=\"${1}\" height=\"${2}\" src=\"${3}\"></amp-img>"
         ]
     },
-    "buttonStyle": {
-        "prefix": "buttonStyle",
+    "ampScript": {
+        "prefix": "amp-script",
         "body": [
-            "button {",
-            "   background: #db004d;",
-            "   color: white;",
-            "   margin: 1rem 0;",
-            "   padding: 0.5rem;",
-            "}"
+            "<amp-script layout=\"${1}\"", 
+            "    height=\"${2}\"",
+            "    src=\"${3}\">",
+            "  ${4}",
+            "</amp-script>"
+        ]
+    },
+    "ampLiveList": {
+        "prefix": "amp-live-list",
+        "body": [
+                    "<amp-live-list layout=\"container\"",
+                    "    data-poll-interval=\"${1}\"",
+                    "    data-max-items-per-page=\"${2}\"",
+                    "    id=\"${3}\">",
+                    "  <button update on=\"tap:${3}.update\">Update</button>",
+                    "  <div items>",
+                    "    <div id=\"${4}\" data-sort-time=\"${5}\">",
+                    "      ${6}",
+                    "    </div>",
+                    "  </div>",
+                    "</amp-live-list>"
+        ]
+    },
+    "tweets": {
+        "prefix": "tweets",
+        "body": [
+            "[[#tweets]]",
+            "<div class=\"tweet\">",
+            "    <strong>[[user.screen_name]]:</strong>",
+            "    [[{text}]]",
+            "</div>",
+            "[[/tweets]]"
+        ]
+    },
+    "agenda": {
+        "prefix": "agenda",
+        "body": [
+            "[[#agenda.days]]",
+            "<div id=\"[[id]]\">",
+            "<h2>[[title]]</h2>",
+            "[[#sessions]]",
+            "<div class=\"session\">",
+            "  <strong>[[title]]</strong>",
+            "  <div>[[{ speakers }]]</div>",
+            "  <time>[[time]]</time>",
+            "</div>",
+            "[[/sessions]]",
+            "</div>",
+            "[[/agenda.days]]"
         ]
     }
 }

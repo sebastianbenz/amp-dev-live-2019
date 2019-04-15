@@ -18,37 +18,51 @@
 
 const express = require('express')
 const app = express()
-const nunjucks = require('nunjucks')
+const Mustache = require('mustache')
 const port = 8080
 const twitter = require('./lib/twitter')
+const ampCors = require('amp-toolbox-cors')
 const { join } = require('path')
+const { promisify } = require('util')
+const { readFile } = require('fs')
+const readFileAsync = promisify(readFile)
+Mustache.tags = ['[[', ']]']
 
-app.set('views', join(__dirname, '/public'))
-nunjucks.configure(__dirname + '/public', {
-  autoescape: true,
-  express: app,
-  noCache: true,
-  tags: {
-    blockStart: '[%',
-    blockEnd: '%]',
-    variableStart: '[[',
-    variableEnd: ']]',
-    commentStart: '[#',
-    commentEnd: '#]'
+const agenda = require('./lib/agenda.json')
+
+const ampCorsMiddleware = ampCors({ verbose: true })
+
+app.use(ampCorsMiddleware)
+
+app.get(['/', '/*.html'], async (req, res) => {
+  try {
+    const tweets = await twitter.search('#ampconf', true)
+    //const tweets = await twitter.search('#dogsoftwitter')
+    res.send(
+      await render(req.path, {
+        title: 'hello world',
+        tweets,
+        agenda,
+        timestamp: new Date().getTime()
+      })
+    )
+  } catch (error) {
+    res.status(500).send(error)
   }
 })
 
-app.get('/', async (req, res) => {
-  //const tweets = await twitter.search('#ampconf')
-  const tweets = await twitter.search('#dogsoftwitter')
-  return res.render('index.html', {
-    title: 'Hello World',
-    tweets
-  })
-})
+app.use(require('./lib/photo-stream.js'))
+app.use('/js', express.static(join(__dirname, 'public/js')))
 
-app.use(require('./lib/photo-stream.js'));
-
-app.use(express.static('public'))
+async function render(filePath, context) {
+  if (filePath.endsWith('/')) {
+    filePath += 'index.html'
+  }
+  const template = await readFileAsync(
+    join(__dirname, 'public', filePath),
+    'utf-8'
+  )
+  return Mustache.render(template, context)
+}
 
 app.listen(port, () => console.log(`App listening on port ${port}!`))

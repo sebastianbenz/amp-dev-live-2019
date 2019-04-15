@@ -6,7 +6,12 @@
   "[javascript]": {
     "editor.formatOnSave": true
   },
-  "html.format.unformatted": ["noscript", "style", "head"],
-  "html.format.contentUnformatted": ["noscript", "style", "head"],
-  "html.format.wrapLineLength": 1000
+  "[css]": {
+    "editor.formatOnSave": true
+  },
+  "html.format.contentUnformatted": "pre,code,textarea,noscript,style,head",
+  "html.format.unformatted": "head",
+  "html.format.wrapLineLength": 1000,
+  "prettier.printWidth": 1200,
+  "editor.tabSize": 2
 }

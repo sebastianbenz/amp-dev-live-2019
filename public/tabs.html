@@ -1,69 +1,55 @@
-<!doctype html>
+<!DOCTYPE html>
 <html ⚡ lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="The AMPConf website - build live @AMPConf!">
-    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
-    <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
-    <script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
-    <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-latest.js"></script>
-    <script async custom-element="amp-lightbox-gallery" src="https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js"></script>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+    <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
     <style amp-custom>
       :root {
         --header-height: 56px;
+        --color-primary: #005af0;
+        --color-primary-text: white;
+        --color-accent: #ffdc00;
       }
       body {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
       }
-      header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
+      main {
+        padding: var(--header-height) 0;
+      }
+      .nav-bar h1 {
+        margin: 0;
+        text-align: center;
+      }
+      .nav-bar {
+        background: var(--color-primary);
+        box-shadow: 0 2px 10px 0 rgba(0,0,0,.07);
+        color: var(--color-primary-text);
         height: var(--header-height);
         line-height: var(--header-height);
-        text-align: center;
-        z-index: 1000;
-        color: #fafafc;
-        font-weight: 700;
-        font-size: 1.25rem;
-        background: #005af0;
-        box-shadow: 0 2px 10px 0 rgba(0,0,0,.07);
         overflow: hidden;
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
       }
-      #tabs {
-        padding: var(--header-height) 0;
-        height: 100vh;
+      .bottom {
+        bottom: 0;
       }
-      #tabs > * {
-          display: none;
-          outline: none;
+      .top {
+        top: 0;
       }
-      #tabs [selected] {
-          display: block;
-      }
-      #toolbar {
-          position: fixed;
-          bottom: 0;
-          height: var(--header-height);
-          display: flex;
-          width: 100%;
-          background: #005af0;
-          color: white;
-      }
-      #toolbar > * {
-        width: 33%;
+      .toolbar {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        opacity: 0.5;
-        outline: none;
-        text-transform: uppercase;
+        justify-content: space-around;
       }
-      #toolbar [selected] {
-          opacity: 1;
+      amp-selector.toolbar [selected] {
+        outline: none;
+        opacity: 1;
+      }
+      .toolbar > * {
+        opacity: .5;
       }
           
     amp-img {
@@ -115,18 +101,19 @@
     <title>AMPConf 2019 - Live!</title>
   </head>
   <body>
-    <header>
-      AMPConf Live!
+    <header class="nav-bar top">
+      <h1>AMPConf 2019 - Live!</h1>
     </header>
-      <amp-selector id="tabs">
-        <section id="schedule" option selected>Schedule</section>
-        <section id="twitter" option>Tweets</section>
-        <section id="photos" option>Photos</section>
-      </amp-selector>
-    <amp-selector id="toolbar" on="select:tabs.toggle(index=event.targetOption, value=true)">
-        <div option=0 selected>Schedule</div>
-        <div option=1>Twitter</div>
-        <div option=2>Photos</div>
+    <main>
+      <section [hidden]="tab > 0">Agenda</section>
+      <section [hidden]="tab != 1" hidden>Tweets</section>
+      <section [hidden]="tab != 2" hidden>Photos</section>
+    </main>
+    <amp-selector class="nav-bar bottom toolbar"
+      on="select:AMP.setState({tab: event.targetOption})">
+      <div option="0" selected>Agenda</div>
+      <div option="1">Tweets</div>
+      <div option="2">Photos</div>
     </amp-selector>
   </body>
 </html>
