@@ -3,17 +3,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+   <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
+   <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+   <script async custom-element="amp-fx-collection" src="https://cdn.ampproject.org/v0/amp-fx-collection-0.1.js"></script>
+   <script async custom-element="amp-live-list" src="https://cdn.ampproject.org/v0/amp-live-list-0.1.js"></script>
+   <script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
+   <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>
+   <script async custom-element="amp-script" src="https://cdn.ampproject.org/v0/amp-script-0.1.js"></script>
+   <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <link rel="canonical" href=".">
     <title>AMPConf 2019 - Live!</title>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
-    <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
-    <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
-    <script async custom-element="amp-fx-collection" src="https://cdn.ampproject.org/v0/amp-fx-collection-0.1.js"></script>
-    <script async custom-element="amp-live-list" src="https://cdn.ampproject.org/v0/amp-live-list-0.1.js"></script>
-    <script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
-    <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>
-    <script async custom-element="amp-script" src="https://cdn.ampproject.org/v0/amp-script-0.1.js"></script>
     <style amp-custom>
       :root {
         --header-height: 56px;
@@ -58,13 +58,12 @@
       .toolbar {
         display: flex;
         justify-content: space-around;
-        
       }
       .toolbar > * {
         opacity: .5;
       }
       amp-selector.toolbar [selected] {
-        opacity: 1.0;
+        opacity: 1;
         outline: none;
       }
     </style>
@@ -74,19 +73,16 @@
       <h1>AMPConf 2019 - Live!</h1>
     </header>
     <main>
+     <section [hidden]="tabs != 0">
 
+      <amp-script layout="fixed-height"
+          height="60"
+          src="/js/activeSession.js">
+          <div id="active-session" class="card" style="background: var(--color-accent)">Now Live: whatever</div>  
+      </amp-script>
+      
 
-      <section [hidden]="tabs > 0">
-
-        <amp-script layout="fixed-height"
-            height="48"
-            src="/js/activeElement.js">
-            <div id="active-session" class="card" style="background: var(--color-accent)">Live: loading</div>
-        </amp-script>
-          
-
-
-        [[#agenda.days]]
+      [[#agenda.days]]
       <div id="[[id]]">
       <h2>[[title]]</h2>
       [[#sessions]]
@@ -97,18 +93,17 @@
       [[/sessions]]
       </div>
       [[/agenda.days]]
-      </section>
+     </section>
 
-
-      <section [hidden]="tabs != 1" hidden>
+     <section [hidden]="tabs != 1" hidden>
 
         <amp-live-list layout="container"
             data-poll-interval="15000"
             data-max-items-per-page="1"
             id="tweets">
-          <button update on="tap:tweets.update">Update</button> 
+          <button update on="tap:.update">Update</button>
           <div items>
-            <div id="tweetsItem" data-sort-time="[[timestamp]]">
+            <div id="tweetItem" data-sort-time="[[timestamp]]">
                 [[#tweets]]
                 <div class="card">
                     <strong>[[user.screen_name]]:</strong>
@@ -118,37 +113,32 @@
             </div>
           </div>
         </amp-live-list>
-        
-
-      </section>
+     </section>
 
 
+     <section [hidden]="tabs != 2" hidden>
 
-      <section [hidden]="tabs != 2" hidden>
-        <amp-list layout="fixed-height" height="80vh"
-                  src="/photos"
-                  load-more="auto"
-                  load-more-bookmark="next">
-          <template type="amp-mustache">
-            <amp-img src="{{imageUrl}}" layout="responsive" height="1" width="1" amp-fx="fade-in"></amp-img>
-          </template>
-        </amp-list>
+      <amp-list layout="fixed-height" height="80vh"
+                src="/photos">
+        <template type="amp-mustache">
+          <amp-img layout="responsive" height="200" width="300" src="{{imageUrl}}" amp-fx="fade-in" load-more=auto></amp-img>
+        </template>
+      </amp-list>
 
-
-
-      </section>
-
-
+     </section>
     </main>
 
     <amp-selector class="toolbar nav-bar bottom"
-                  amp-fx="float-in-bottom"
-                  on="select:AMP.setState({ tabs: event.targetOption })">
+      on="select:AMP.setState({ tabs: event.targetOption })"
+      amp-fx="float-in-bottom">
       <div option=0 selected>Agenda</div>
       <div option=1>Twitter</div>
       <div option=2>Photos!</div>
-      
     </amp-selector>
 
+
+    <!--
+
+    -->
   </body>
 </html>

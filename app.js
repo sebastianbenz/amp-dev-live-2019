@@ -33,6 +33,13 @@ const agenda = require('./lib/agenda.json')
 const ampCorsMiddleware = ampCors({ verbose: true })
 
 app.use(ampCorsMiddleware)
+app.use((req, res, next) => {
+  console.log(req.url);
+  next();
+});
+
+app.use('/js', express.static(join(__dirname, 'public/js')))
+app.use('/img', express.static(join(__dirname, 'public/img')))
 
 app.get(['/', '/*.html'], async (req, res) => {
   try {
@@ -52,7 +59,6 @@ app.get(['/', '/*.html'], async (req, res) => {
 })
 
 app.use(require('./lib/photo-stream.js'))
-app.use('/js', express.static(join(__dirname, 'public/js')))
 
 async function render(filePath, context) {
   if (filePath.endsWith('/')) {
