@@ -34,17 +34,16 @@ const ampCorsMiddleware = ampCors({ verbose: true })
 
 app.use(ampCorsMiddleware)
 app.use((req, res, next) => {
-  console.log(req.url);
-  next();
-});
+  console.log(req.url)
+  next()
+})
 
 app.use('/js', express.static(join(__dirname, 'public/js')))
 app.use('/img', express.static(join(__dirname, 'public/img')))
 
 app.get(['/', '/*.html'], async (req, res) => {
   try {
-    const tweets = await twitter.search('#ampconf', true)
-    //const tweets = await twitter.search('#dogsoftwitter')
+    const tweets = await twitter.search('ampconf')
     res.send(
       await render(req.path, {
         title: 'hello world',

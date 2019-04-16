@@ -73,8 +73,8 @@ function addSessions(agenda, speakers, date) {
       description: session.description,
       speakers: formatSpeakers(speakers, session.speakers),
       time: session.time,
-      start: date.toUTCString(),
-      end: endDate.toUTCString()
+      start: date.getTime(),
+      end: endDate.getTime()
     }
     console.log(s)
     result.push(s)

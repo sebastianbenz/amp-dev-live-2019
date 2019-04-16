@@ -9,7 +9,7 @@
     "importAmpExtensionMustache": {
         "prefix": "import-custom-template",
         "body": [
-            "<script async custom-template=\"amp-mustache\" src=\"https://cdn.ampproject.org/v0/amp-mustache-0.1.js\"></script>"
+            "<script async custom-template=\"amp-mustache\" src=\"https://cdn.ampproject.org/v0/amp-mustache-0.2.js\"></script>"
         ],
         "description": "import AMP extension"
     },
@@ -65,9 +65,9 @@
         ]
     },
     "ampImg": {
-        "prefix": "amp-img-fixed-layout",
+        "prefix": "amp-img",
         "body": [
-            "<amp-img width=\"${1}\" height=\"${2}\" src=\"${3}\"></amp-img>"
+            "<amp-img layout=\"responsive\" width=\"${1}\" height=\"${2}\" src=\"${3}\"></amp-img>"
         ]
     },
     "ampScript": {
@@ -84,13 +84,13 @@
         "prefix": "amp-live-list",
         "body": [
                     "<amp-live-list layout=\"container\"",
-                    "    data-poll-interval=\"${1}\"",
                     "    data-max-items-per-page=\"${2}\"",
                     "    id=\"${3}\">",
                     "  <button update on=\"tap:${3}.update\">Update</button>",
                     "  <div items>",
-                    "    <div id=\"${4}\" data-sort-time=\"${5}\">",
-                    "      ${6}",
+                    "    <div id=\"${4}\"",
+                    "      data-sort-time=\"${5}\">",
+                    "    ${6}",
                     "    </div>",
                     "  </div>",
                     "</amp-live-list>"
@@ -100,9 +100,8 @@
         "prefix": "tweets",
         "body": [
             "[[#tweets]]",
-            "<div class=\"tweet\">",
-            "    <strong>[[user.screen_name]]:</strong>",
-            "    [[{text}]]",
+            "<div id=\"[[id]]\" data-sort-time=\"[[timestamp]]\" class=\"card\">",
+            "  <strong>[[user]]:</strong>[[{text}]]",
             "</div>",
             "[[/tweets]]"
         ]
