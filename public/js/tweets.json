@@ -1,133 +1,37 @@
 [
   {
-    "created_at": "Tue Apr 16 02:43:39 +0000 2019",
-    "id": 1117981852562645000,
-    "id_str": "1117981852562644992",
-    "text": "<strong>jumpingknee:</strong> RT @piropiroanna: 来週開催される #AMPConf のための浴衣が仕立て上がったよ😆✨楽しみ、やっほぃ🥰🥰\n\n@atsushi800 さん、kapuki さん、ありがとうございます！！ <a href=\"https://t.co/d83XAftT95\" class=\"linkified\" target=\"_blank\">https://t.co/d83XAftT95</a>",
+    "created_at": "Tue Apr 16 13:03:03 +0000 2019",
+    "id": 1118137728267370500,
+    "id_str": "1118137728267370498",
+    "text": "<strong>alaeliberae:</strong> RT @AMPhtml: JavaScript is coming to AMP! 👏 🎉\n\nWith 'amp-script', custom #JS can operate within AMP Documents. Don't believe us? The animat…",
     "truncated": false,
     "entities": {
       "hashtags": [
         {
-          "text": "AMPConf",
+          "text": "JS",
           "indices": [
-            26,
-            34
+            73,
+            76
           ]
         }
       ],
       "symbols": [],
       "user_mentions": [
         {
-          "screen_name": "piropiroanna",
-          "name": "きらきら☆あんなたん",
-          "id": 187397042,
-          "id_str": "187397042",
+          "screen_name": "AMPhtml",
+          "name": "AMP Project",
+          "id": 3450662892,
+          "id_str": "3450662892",
           "indices": [
             3,
-            16
-          ]
-        },
-        {
-          "screen_name": "atsushi800",
-          "name": "ハイブリッド職人🌈きむにー",
-          "id": 485463227,
-          "id_str": "485463227",
-          "indices": [
-            64,
-            75
+            11
           ]
         }
       ],
-      "urls": [],
-      "media": [
-        {
-          "id": 1117278074507104300,
-          "id_str": "1117278074507104256",
-          "indices": [
-            102,
-            125
-          ],
-          "media_url": "http://pbs.twimg.com/media/D4FefTpUEAAk5Ul.jpg",
-          "media_url_https": "https://pbs.twimg.com/media/D4FefTpUEAAk5Ul.jpg",
-          "url": "https://t.co/d83XAftT95",
-          "display_url": "pic.twitter.com/d83XAftT95",
-          "expanded_url": "https://twitter.com/piropiroanna/status/1117278082295980032/photo/1",
-          "type": "photo",
-          "sizes": {
-            "thumb": {
-              "w": 150,
-              "h": 150,
-              "resize": "crop"
-            },
-            "large": {
-              "w": 2048,
-              "h": 2048,
-              "resize": "fit"
-            },
-            "medium": {
-              "w": 1200,
-              "h": 1200,
-              "resize": "fit"
-            },
-            "small": {
-              "w": 680,
-              "h": 680,
-              "resize": "fit"
-            }
-          },
-          "source_status_id": 1117278082295980000,
-          "source_status_id_str": "1117278082295980032",
-          "source_user_id": 187397042,
-          "source_user_id_str": "187397042"
-        }
-      ]
-    },
-    "extended_entities": {
-      "media": [
-        {
-          "id": 1117278074507104300,
-          "id_str": "1117278074507104256",
-          "indices": [
-            102,
-            125
-          ],
-          "media_url": "http://pbs.twimg.com/media/D4FefTpUEAAk5Ul.jpg",
-          "media_url_https": "https://pbs.twimg.com/media/D4FefTpUEAAk5Ul.jpg",
-          "url": "https://t.co/d83XAftT95",
-          "display_url": "pic.twitter.com/d83XAftT95",
-          "expanded_url": "https://twitter.com/piropiroanna/status/1117278082295980032/photo/1",
-          "type": "photo",
-          "sizes": {
-            "thumb": {
-              "w": 150,
-              "h": 150,
-              "resize": "crop"
-            },
-            "large": {
-              "w": 2048,
-              "h": 2048,
-              "resize": "fit"
-            },
-            "medium": {
-              "w": 1200,
-              "h": 1200,
-              "resize": "fit"
-            },
-            "small": {
-              "w": 680,
-              "h": 680,
-              "resize": "fit"
-            }
-          },
-          "source_status_id": 1117278082295980000,
-          "source_status_id_str": "1117278082295980032",
-          "source_user_id": 187397042,
-          "source_user_id_str": "187397042"
-        }
-      ]
+      "urls": []
     },
     "metadata": {
-      "iso_language_code": "ja",
+      "iso_language_code": "en",
       "result_type": "recent"
     },
     "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
@@ -136,174 +40,118 @@
     "in_reply_to_user_id": null,
     "in_reply_to_user_id_str": null,
     "in_reply_to_screen_name": null,
-    "user": "jumpingknee",
+    "user": "alaeliberae",
     "geo": null,
     "coordinates": null,
     "place": null,
     "contributors": null,
     "retweeted_status": {
-      "created_at": "Sun Apr 14 04:07:07 +0000 2019",
-      "id": 1117278082295980000,
-      "id_str": "1117278082295980032",
-      "text": "来週開催される #AMPConf のための浴衣が仕立て上がったよ😆✨楽しみ、やっほぃ🥰🥰\n\n@atsushi800 さん、kapuki さん、ありがとうございます！！ https://t.co/d83XAftT95",
-      "truncated": false,
+      "created_at": "Thu Apr 11 16:33:53 +0000 2019",
+      "id": 1116378847937613800,
+      "id_str": "1116378847937613824",
+      "text": "JavaScript is coming to AMP! 👏 🎉\n\nWith 'amp-script', custom #JS can operate within AMP Documents. Don't believe us?… https://t.co/EphXSQF6Mq",
+      "truncated": true,
       "entities": {
         "hashtags": [
           {
-            "text": "AMPConf",
+            "text": "JS",
             "indices": [
-              8,
-              16
+              60,
+              63
             ]
           }
         ],
         "symbols": [],
-        "user_mentions": [
+        "user_mentions": [],
+        "urls": [
           {
-            "screen_name": "atsushi800",
-            "name": "ハイブリッド職人🌈きむにー",
-            "id": 485463227,
-            "id_str": "485463227",
+            "url": "https://t.co/EphXSQF6Mq",
+            "expanded_url": "https://twitter.com/i/web/status/1116378847937613824",
+            "display_url": "twitter.com/i/web/status/1…",
             "indices": [
-              46,
-              57
+              117,
+              140
             ]
-          }
-        ],
-        "urls": [],
-        "media": [
-          {
-            "id": 1117278074507104300,
-            "id_str": "1117278074507104256",
-            "indices": [
-              84,
-              107
-            ],
-            "media_url": "http://pbs.twimg.com/media/D4FefTpUEAAk5Ul.jpg",
-            "media_url_https": "https://pbs.twimg.com/media/D4FefTpUEAAk5Ul.jpg",
-            "url": "https://t.co/d83XAftT95",
-            "display_url": "pic.twitter.com/d83XAftT95",
-            "expanded_url": "https://twitter.com/piropiroanna/status/1117278082295980032/photo/1",
-            "type": "photo",
-            "sizes": {
-              "thumb": {
-                "w": 150,
-                "h": 150,
-                "resize": "crop"
-              },
-              "large": {
-                "w": 2048,
-                "h": 2048,
-                "resize": "fit"
-              },
-              "medium": {
-                "w": 1200,
-                "h": 1200,
-                "resize": "fit"
-              },
-              "small": {
-                "w": 680,
-                "h": 680,
-                "resize": "fit"
-              }
-            }
-          }
-        ]
-      },
-      "extended_entities": {
-        "media": [
-          {
-            "id": 1117278074507104300,
-            "id_str": "1117278074507104256",
-            "indices": [
-              84,
-              107
-            ],
-            "media_url": "http://pbs.twimg.com/media/D4FefTpUEAAk5Ul.jpg",
-            "media_url_https": "https://pbs.twimg.com/media/D4FefTpUEAAk5Ul.jpg",
-            "url": "https://t.co/d83XAftT95",
-            "display_url": "pic.twitter.com/d83XAftT95",
-            "expanded_url": "https://twitter.com/piropiroanna/status/1117278082295980032/photo/1",
-            "type": "photo",
-            "sizes": {
-              "thumb": {
-                "w": 150,
-                "h": 150,
-                "resize": "crop"
-              },
-              "large": {
-                "w": 2048,
-                "h": 2048,
-                "resize": "fit"
-              },
-              "medium": {
-                "w": 1200,
-                "h": 1200,
-                "resize": "fit"
-              },
-              "small": {
-                "w": 680,
-                "h": 680,
-                "resize": "fit"
-              }
-            }
           }
         ]
       },
       "metadata": {
-        "iso_language_code": "ja",
+        "iso_language_code": "en",
         "result_type": "recent"
       },
-      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
       "in_reply_to_status_id": null,
       "in_reply_to_status_id_str": null,
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
       "user": {
-        "id": 187397042,
-        "id_str": "187397042",
-        "name": "きらきら☆あんなたん",
-        "screen_name": "piropiroanna",
+        "id": 3450662892,
+        "id_str": "3450662892",
+        "name": "AMP Project",
+        "screen_name": "AMPhtml",
         "location": "",
-        "description": "Anna Ogawa / ✨ Technical Mobile Solutions Consultant✨ @Google. All tweets are my own. 毎月 #ウェブマスターオフィスアワー してます。みんな見てね！4/17、18の2日間 @ 六本木で #AMPConf 開催します🎉🎉",
-        "url": null,
+        "description": "Official account of the AMP Project, short for Accelerated Mobile Pages. Follow for news, insights and support on AMP // YouTube → https://t.co/46s0RypmQA",
+        "url": "https://t.co/bJvrGQhALy",
         "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/bJvrGQhALy",
+                "expanded_url": "https://amp.dev/",
+                "display_url": "amp.dev",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
           "description": {
-            "urls": []
+            "urls": [
+              {
+                "url": "https://t.co/46s0RypmQA",
+                "expanded_url": "http://goo.gl/DSP17m",
+                "display_url": "goo.gl/DSP17m",
+                "indices": [
+                  131,
+                  154
+                ]
+              }
+            ]
           }
         },
         "protected": false,
-        "followers_count": 1519,
-        "friends_count": 341,
-        "listed_count": 27,
-        "created_at": "Mon Sep 06 03:12:09 +0000 2010",
-        "favourites_count": 5172,
+        "followers_count": 14600,
+        "friends_count": 22,
+        "listed_count": 299,
+        "created_at": "Fri Sep 04 18:17:49 +0000 2015",
+        "favourites_count": 727,
         "utc_offset": null,
         "time_zone": null,
         "geo_enabled": false,
         "verified": false,
-        "statuses_count": 11993,
-        "lang": "ja",
+        "statuses_count": 1087,
+        "lang": "en",
         "contributors_enabled": false,
         "is_translator": false,
         "is_translation_enabled": false,
-        "profile_background_color": "0ABAB5",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme16/bg.gif",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme16/bg.gif",
-        "profile_background_tile": true,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/738338723079671809/eQ7cEs6F_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/738338723079671809/eQ7cEs6F_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/187397042/1350926365",
-        "profile_link_color": "FE620D",
-        "profile_sidebar_border_color": "FFFFFF",
-        "profile_sidebar_fill_color": "DDFFCC",
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1042433595296690176/xQmWsl4M_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1042433595296690176/xQmWsl4M_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3450662892/1551907061",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
         "profile_text_color": "333333",
         "profile_use_background_image": true,
         "has_extended_profile": false,
-        "default_profile": false,
+        "default_profile": true,
         "default_profile_image": false,
-        "following": false,
+        "following": true,
         "follow_request_sent": false,
         "notifications": false,
         "translator_type": "none"
@@ -313,365 +161,34 @@
       "place": null,
       "contributors": null,
       "is_quote_status": false,
-      "retweet_count": 1,
-      "favorite_count": 15,
+      "retweet_count": 238,
+      "favorite_count": 449,
       "favorited": false,
       "retweeted": false,
       "possibly_sensitive": false,
-      "lang": "ja"
+      "lang": "en"
     },
     "is_quote_status": false,
-    "retweet_count": 1,
+    "retweet_count": 238,
     "favorite_count": 0,
     "favorited": false,
     "retweeted": false,
-    "possibly_sensitive": false,
-    "lang": "ja",
-    "timestamp": 1555382619000
+    "lang": "en",
+    "timestamp": 1555419783000
   },
   {
-    "created_at": "Tue Apr 16 02:42:50 +0000 2019",
-    "id": 1117981647217913900,
-    "id_str": "1117981647217913856",
-    "text": "<strong>atsushi800:</strong> RT @piropiroanna: 来週開催される #AMPConf のための浴衣が仕立て上がったよ😆✨楽しみ、やっほぃ🥰🥰\n\n@atsushi800 さん、kapuki さん、ありがとうございます！！ <a href=\"https://t.co/d83XAftT95\" class=\"linkified\" target=\"_blank\">https://t.co/d83XAftT95</a>",
-    "truncated": false,
+    "created_at": "Tue Apr 16 12:35:56 +0000 2019",
+    "id": 1118130906617786400,
+    "id_str": "1118130906617786368",
+    "text": "<strong>TappableHQ:</strong> Last few checks for the #AMPConf! We’ll post the answer to this question on Thursday! Looking forward to see you th… <a href=\"https://t.co/xCAgSJ5fn7\" class=\"linkified\" target=\"_blank\">https://t.co/xCAgSJ5fn7</a>",
+    "truncated": true,
     "entities": {
       "hashtags": [
         {
           "text": "AMPConf",
           "indices": [
-            26,
-            34
-          ]
-        }
-      ],
-      "symbols": [],
-      "user_mentions": [
-        {
-          "screen_name": "piropiroanna",
-          "name": "きらきら☆あんなたん",
-          "id": 187397042,
-          "id_str": "187397042",
-          "indices": [
-            3,
-            16
-          ]
-        },
-        {
-          "screen_name": "atsushi800",
-          "name": "ハイブリッド職人🌈きむにー",
-          "id": 485463227,
-          "id_str": "485463227",
-          "indices": [
-            64,
-            75
-          ]
-        }
-      ],
-      "urls": [],
-      "media": [
-        {
-          "id": 1117278074507104300,
-          "id_str": "1117278074507104256",
-          "indices": [
-            102,
-            125
-          ],
-          "media_url": "http://pbs.twimg.com/media/D4FefTpUEAAk5Ul.jpg",
-          "media_url_https": "https://pbs.twimg.com/media/D4FefTpUEAAk5Ul.jpg",
-          "url": "https://t.co/d83XAftT95",
-          "display_url": "pic.twitter.com/d83XAftT95",
-          "expanded_url": "https://twitter.com/piropiroanna/status/1117278082295980032/photo/1",
-          "type": "photo",
-          "sizes": {
-            "thumb": {
-              "w": 150,
-              "h": 150,
-              "resize": "crop"
-            },
-            "large": {
-              "w": 2048,
-              "h": 2048,
-              "resize": "fit"
-            },
-            "medium": {
-              "w": 1200,
-              "h": 1200,
-              "resize": "fit"
-            },
-            "small": {
-              "w": 680,
-              "h": 680,
-              "resize": "fit"
-            }
-          },
-          "source_status_id": 1117278082295980000,
-          "source_status_id_str": "1117278082295980032",
-          "source_user_id": 187397042,
-          "source_user_id_str": "187397042"
-        }
-      ]
-    },
-    "extended_entities": {
-      "media": [
-        {
-          "id": 1117278074507104300,
-          "id_str": "1117278074507104256",
-          "indices": [
-            102,
-            125
-          ],
-          "media_url": "http://pbs.twimg.com/media/D4FefTpUEAAk5Ul.jpg",
-          "media_url_https": "https://pbs.twimg.com/media/D4FefTpUEAAk5Ul.jpg",
-          "url": "https://t.co/d83XAftT95",
-          "display_url": "pic.twitter.com/d83XAftT95",
-          "expanded_url": "https://twitter.com/piropiroanna/status/1117278082295980032/photo/1",
-          "type": "photo",
-          "sizes": {
-            "thumb": {
-              "w": 150,
-              "h": 150,
-              "resize": "crop"
-            },
-            "large": {
-              "w": 2048,
-              "h": 2048,
-              "resize": "fit"
-            },
-            "medium": {
-              "w": 1200,
-              "h": 1200,
-              "resize": "fit"
-            },
-            "small": {
-              "w": 680,
-              "h": 680,
-              "resize": "fit"
-            }
-          },
-          "source_status_id": 1117278082295980000,
-          "source_status_id_str": "1117278082295980032",
-          "source_user_id": 187397042,
-          "source_user_id_str": "187397042"
-        }
-      ]
-    },
-    "metadata": {
-      "iso_language_code": "ja",
-      "result_type": "recent"
-    },
-    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
-    "in_reply_to_status_id": null,
-    "in_reply_to_status_id_str": null,
-    "in_reply_to_user_id": null,
-    "in_reply_to_user_id_str": null,
-    "in_reply_to_screen_name": null,
-    "user": "atsushi800",
-    "geo": null,
-    "coordinates": null,
-    "place": null,
-    "contributors": null,
-    "retweeted_status": {
-      "created_at": "Sun Apr 14 04:07:07 +0000 2019",
-      "id": 1117278082295980000,
-      "id_str": "1117278082295980032",
-      "text": "来週開催される #AMPConf のための浴衣が仕立て上がったよ😆✨楽しみ、やっほぃ🥰🥰\n\n@atsushi800 さん、kapuki さん、ありがとうございます！！ https://t.co/d83XAftT95",
-      "truncated": false,
-      "entities": {
-        "hashtags": [
-          {
-            "text": "AMPConf",
-            "indices": [
-              8,
-              16
-            ]
-          }
-        ],
-        "symbols": [],
-        "user_mentions": [
-          {
-            "screen_name": "atsushi800",
-            "name": "ハイブリッド職人🌈きむにー",
-            "id": 485463227,
-            "id_str": "485463227",
-            "indices": [
-              46,
-              57
-            ]
-          }
-        ],
-        "urls": [],
-        "media": [
-          {
-            "id": 1117278074507104300,
-            "id_str": "1117278074507104256",
-            "indices": [
-              84,
-              107
-            ],
-            "media_url": "http://pbs.twimg.com/media/D4FefTpUEAAk5Ul.jpg",
-            "media_url_https": "https://pbs.twimg.com/media/D4FefTpUEAAk5Ul.jpg",
-            "url": "https://t.co/d83XAftT95",
-            "display_url": "pic.twitter.com/d83XAftT95",
-            "expanded_url": "https://twitter.com/piropiroanna/status/1117278082295980032/photo/1",
-            "type": "photo",
-            "sizes": {
-              "thumb": {
-                "w": 150,
-                "h": 150,
-                "resize": "crop"
-              },
-              "large": {
-                "w": 2048,
-                "h": 2048,
-                "resize": "fit"
-              },
-              "medium": {
-                "w": 1200,
-                "h": 1200,
-                "resize": "fit"
-              },
-              "small": {
-                "w": 680,
-                "h": 680,
-                "resize": "fit"
-              }
-            }
-          }
-        ]
-      },
-      "extended_entities": {
-        "media": [
-          {
-            "id": 1117278074507104300,
-            "id_str": "1117278074507104256",
-            "indices": [
-              84,
-              107
-            ],
-            "media_url": "http://pbs.twimg.com/media/D4FefTpUEAAk5Ul.jpg",
-            "media_url_https": "https://pbs.twimg.com/media/D4FefTpUEAAk5Ul.jpg",
-            "url": "https://t.co/d83XAftT95",
-            "display_url": "pic.twitter.com/d83XAftT95",
-            "expanded_url": "https://twitter.com/piropiroanna/status/1117278082295980032/photo/1",
-            "type": "photo",
-            "sizes": {
-              "thumb": {
-                "w": 150,
-                "h": 150,
-                "resize": "crop"
-              },
-              "large": {
-                "w": 2048,
-                "h": 2048,
-                "resize": "fit"
-              },
-              "medium": {
-                "w": 1200,
-                "h": 1200,
-                "resize": "fit"
-              },
-              "small": {
-                "w": 680,
-                "h": 680,
-                "resize": "fit"
-              }
-            }
-          }
-        ]
-      },
-      "metadata": {
-        "iso_language_code": "ja",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 187397042,
-        "id_str": "187397042",
-        "name": "きらきら☆あんなたん",
-        "screen_name": "piropiroanna",
-        "location": "",
-        "description": "Anna Ogawa / ✨ Technical Mobile Solutions Consultant✨ @Google. All tweets are my own. 毎月 #ウェブマスターオフィスアワー してます。みんな見てね！4/17、18の2日間 @ 六本木で #AMPConf 開催します🎉🎉",
-        "url": null,
-        "entities": {
-          "description": {
-            "urls": []
-          }
-        },
-        "protected": false,
-        "followers_count": 1519,
-        "friends_count": 341,
-        "listed_count": 27,
-        "created_at": "Mon Sep 06 03:12:09 +0000 2010",
-        "favourites_count": 5172,
-        "utc_offset": null,
-        "time_zone": null,
-        "geo_enabled": false,
-        "verified": false,
-        "statuses_count": 11993,
-        "lang": "ja",
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "0ABAB5",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme16/bg.gif",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme16/bg.gif",
-        "profile_background_tile": true,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/738338723079671809/eQ7cEs6F_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/738338723079671809/eQ7cEs6F_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/187397042/1350926365",
-        "profile_link_color": "FE620D",
-        "profile_sidebar_border_color": "FFFFFF",
-        "profile_sidebar_fill_color": "DDFFCC",
-        "profile_text_color": "333333",
-        "profile_use_background_image": true,
-        "has_extended_profile": false,
-        "default_profile": false,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "is_quote_status": false,
-      "retweet_count": 1,
-      "favorite_count": 15,
-      "favorited": false,
-      "retweeted": false,
-      "possibly_sensitive": false,
-      "lang": "ja"
-    },
-    "is_quote_status": false,
-    "retweet_count": 1,
-    "favorite_count": 0,
-    "favorited": false,
-    "retweeted": false,
-    "possibly_sensitive": false,
-    "lang": "ja",
-    "timestamp": 1555382570000
-  },
-  {
-    "created_at": "Tue Apr 16 02:41:27 +0000 2019",
-    "id": 1117981299556307000,
-    "id_str": "1117981299556306944",
-    "text": "<strong>atsushi800:</strong> おぉ〜〜\n着てくださってる！\n\nテラコヤ伊勢型紙から衣装提供をさせていただきました！！\n#AMPConf 当日のMCの方々も着ていただけるみたいなので、お楽しみに！！ <a href=\"https://t.co/hXwMuDtejf\" class=\"linkified\" target=\"_blank\">https://t.co/hXwMuDtejf</a>",
-    "truncated": false,
-    "entities": {
-      "hashtags": [
-        {
-          "text": "AMPConf",
-          "indices": [
-            44,
-            52
+            24,
+            32
           ]
         }
       ],
@@ -679,132 +196,113 @@
       "user_mentions": [],
       "urls": [
         {
-          "url": "https://t.co/hXwMuDtejf",
-          "expanded_url": "https://twitter.com/sisidovski/status/1117942294361956357",
-          "display_url": "twitter.com/sisidovski/sta…",
+          "url": "https://t.co/xCAgSJ5fn7",
+          "expanded_url": "https://twitter.com/i/web/status/1118130906617786368",
+          "display_url": "twitter.com/i/web/status/1…",
           "indices": [
-            84,
-            107
+            117,
+            140
           ]
         }
       ]
     },
     "metadata": {
-      "iso_language_code": "ja",
+      "iso_language_code": "en",
       "result_type": "recent"
     },
-    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
     "in_reply_to_status_id": null,
     "in_reply_to_status_id_str": null,
     "in_reply_to_user_id": null,
     "in_reply_to_user_id_str": null,
     "in_reply_to_screen_name": null,
-    "user": "atsushi800",
+    "user": "TappableHQ",
     "geo": null,
     "coordinates": null,
     "place": null,
     "contributors": null,
-    "is_quote_status": true,
-    "quoted_status_id": 1117942294361956400,
-    "quoted_status_id_str": "1117942294361956357",
-    "quoted_status": {
-      "created_at": "Tue Apr 16 00:06:27 +0000 2019",
-      "id": 1117942294361956400,
-      "id_str": "1117942294361956357",
-      "text": "オフィスでAMPロゴ入り浴衣を着ている @piropiroanna を発見！かわいい！ https://t.co/XRfUk0XFFL",
-      "truncated": false,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en",
+    "timestamp": 1555418156000
+  },
+  {
+    "created_at": "Tue Apr 16 11:38:50 +0000 2019",
+    "id": 1118116536286208000,
+    "id_str": "1118116536286208001",
+    "text": "<strong>lunaxxsacredxx:</strong> RT @googledevjp: 🗼🌸明日あさって、ここ東京で #AMPConf 2019 が開幕！リッチ アニメーション、動的なコンテンツ、Dev Ops やマネタイゼーションなど、Web における良質なユーザー体験を実現するためのすべてを、一緒に見ていきましょう。ライブスト…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "AMPConf",
+          "indices": [
+            32,
+            40
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "googledevjp",
+          "name": "Google Devs Japan",
+          "id": 87913252,
+          "id_str": "87913252",
+          "indices": [
+            3,
+            15
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "metadata": {
+      "iso_language_code": "ja",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": "lunaxxsacredxx",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Tue Apr 16 04:44:53 +0000 2019",
+      "id": 1118012363725127700,
+      "id_str": "1118012363725127680",
+      "text": "🗼🌸明日あさって、ここ東京で #AMPConf 2019 が開幕！リッチ アニメーション、動的なコンテンツ、Dev Ops やマネタイゼーションなど、Web における良質なユーザー体験を実現するためのすべてを、一緒に見ていきましょ… https://t.co/DytpjVo1MZ",
+      "truncated": true,
       "entities": {
-        "hashtags": [],
-        "symbols": [],
-        "user_mentions": [
+        "hashtags": [
           {
-            "screen_name": "piropiroanna",
-            "name": "きらきら☆あんなたん",
-            "id": 187397042,
-            "id_str": "187397042",
+            "text": "AMPConf",
             "indices": [
-              20,
-              33
+              15,
+              23
             ]
           }
         ],
-        "urls": [],
-        "media": [
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
           {
-            "id": 1117942290213785600,
-            "id_str": "1117942290213785600",
+            "url": "https://t.co/DytpjVo1MZ",
+            "expanded_url": "https://twitter.com/i/web/status/1118012363725127680",
+            "display_url": "twitter.com/i/web/status/1…",
             "indices": [
-              44,
-              67
-            ],
-            "media_url": "http://pbs.twimg.com/media/D4O6lv-UUAAofRl.jpg",
-            "media_url_https": "https://pbs.twimg.com/media/D4O6lv-UUAAofRl.jpg",
-            "url": "https://t.co/XRfUk0XFFL",
-            "display_url": "pic.twitter.com/XRfUk0XFFL",
-            "expanded_url": "https://twitter.com/sisidovski/status/1117942294361956357/photo/1",
-            "type": "photo",
-            "sizes": {
-              "small": {
-                "w": 510,
-                "h": 680,
-                "resize": "fit"
-              },
-              "thumb": {
-                "w": 150,
-                "h": 150,
-                "resize": "crop"
-              },
-              "large": {
-                "w": 768,
-                "h": 1024,
-                "resize": "fit"
-              },
-              "medium": {
-                "w": 768,
-                "h": 1024,
-                "resize": "fit"
-              }
-            }
-          }
-        ]
-      },
-      "extended_entities": {
-        "media": [
-          {
-            "id": 1117942290213785600,
-            "id_str": "1117942290213785600",
-            "indices": [
-              44,
-              67
-            ],
-            "media_url": "http://pbs.twimg.com/media/D4O6lv-UUAAofRl.jpg",
-            "media_url_https": "https://pbs.twimg.com/media/D4O6lv-UUAAofRl.jpg",
-            "url": "https://t.co/XRfUk0XFFL",
-            "display_url": "pic.twitter.com/XRfUk0XFFL",
-            "expanded_url": "https://twitter.com/sisidovski/status/1117942294361956357/photo/1",
-            "type": "photo",
-            "sizes": {
-              "small": {
-                "w": 510,
-                "h": 680,
-                "resize": "fit"
-              },
-              "thumb": {
-                "w": 150,
-                "h": 150,
-                "resize": "crop"
-              },
-              "large": {
-                "w": 768,
-                "h": 1024,
-                "resize": "fit"
-              },
-              "medium": {
-                "w": 768,
-                "h": 1024,
-                "resize": "fit"
-              }
-            }
+              117,
+              140
+            ]
           }
         ]
       },
@@ -812,27 +310,27 @@
         "iso_language_code": "ja",
         "result_type": "recent"
       },
-      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
       "in_reply_to_status_id": null,
       "in_reply_to_status_id_str": null,
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
       "user": {
-        "id": 63631266,
-        "id_str": "63631266",
-        "name": "Shunya Shishido",
-        "screen_name": "sisidovski",
-        "location": "Tokyo",
-        "description": "⚡️ Mobile Technical Solutions Consultant @Google. Former Software Engineer @Nikkei and Dwango. Prefer web performance, tweets are my own. 風呂と文学で生きています",
-        "url": "https://t.co/WKwzJD3eeD",
+        "id": 87913252,
+        "id_str": "87913252",
+        "name": "Google Devs Japan",
+        "screen_name": "googledevjp",
+        "location": "六本木ヒルズ",
+        "description": "日本の Google Developers チームがニュースやアップデート、イベント情報などを発信します。",
+        "url": "https://t.co/53pwWSlPZF",
         "entities": {
           "url": {
             "urls": [
               {
-                "url": "https://t.co/WKwzJD3eeD",
-                "expanded_url": "https://sisidov.ski",
-                "display_url": "sisidov.ski",
+                "url": "https://t.co/53pwWSlPZF",
+                "expanded_url": "http://developers-jp.googleblog.com/",
+                "display_url": "developers-jp.googleblog.com",
                 "indices": [
                   0,
                   23
@@ -845,31 +343,195 @@
           }
         },
         "protected": false,
-        "followers_count": 2304,
-        "friends_count": 965,
-        "listed_count": 101,
-        "created_at": "Fri Aug 07 03:56:45 +0000 2009",
-        "favourites_count": 24585,
+        "followers_count": 29638,
+        "friends_count": 25,
+        "listed_count": 1398,
+        "created_at": "Fri Nov 06 10:40:14 +0000 2009",
+        "favourites_count": 66,
         "utc_offset": null,
         "time_zone": null,
-        "geo_enabled": true,
-        "verified": false,
-        "statuses_count": 42216,
-        "lang": "en",
+        "geo_enabled": false,
+        "verified": true,
+        "statuses_count": 3922,
+        "lang": "ja",
         "contributors_enabled": false,
         "is_translator": false,
         "is_translation_enabled": false,
-        "profile_background_color": "3B3B3B",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme7/bg.gif",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme7/bg.gif",
+        "profile_background_color": "FFFFFF",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1113283591486603265/YhRL_Wjy_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1113283591486603265/YhRL_Wjy_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/87913252/1555379033",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 10,
+      "favorite_count": 18,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "ja"
+    },
+    "is_quote_status": false,
+    "retweet_count": 10,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ja",
+    "timestamp": 1555414730000
+  },
+  {
+    "created_at": "Tue Apr 16 11:33:30 +0000 2019",
+    "id": 1118115192204709900,
+    "id_str": "1118115192204709888",
+    "text": "<strong>Ryosuke_Shiga:</strong> RT @piropiroanna: 明日はみなさんお待ちかねの #AMPConf です。日英でライブ配信があるみたいなので、会場に来られない方々はぜひ YouTube で見てくださいね！盛り上がって行きたい😎😎 <a href=\"https://t.co/CXf8Nyiafu\" class=\"linkified\" target=\"_blank\">https://t.co/CXf8Nyiafu</a>",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "AMPConf",
+          "indices": [
+            32,
+            40
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "piropiroanna",
+          "name": "きらきら☆あんなたん",
+          "id": 187397042,
+          "id_str": "187397042",
+          "indices": [
+            3,
+            16
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/CXf8Nyiafu",
+          "expanded_url": "https://twitter.com/pbakaus/status/1118047850762387456",
+          "display_url": "twitter.com/pbakaus/status…",
+          "indices": [
+            106,
+            129
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "iso_language_code": "ja",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": "Ryosuke_Shiga",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Tue Apr 16 10:55:25 +0000 2019",
+      "id": 1118105612074635300,
+      "id_str": "1118105612074635265",
+      "text": "明日はみなさんお待ちかねの #AMPConf です。日英でライブ配信があるみたいなので、会場に来られない方々はぜひ YouTube で見てくださいね！盛り上がって行きたい😎😎 https://t.co/CXf8Nyiafu",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "AMPConf",
+            "indices": [
+              14,
+              22
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/CXf8Nyiafu",
+            "expanded_url": "https://twitter.com/pbakaus/status/1118047850762387456",
+            "display_url": "twitter.com/pbakaus/status…",
+            "indices": [
+              88,
+              111
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "ja",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 187397042,
+        "id_str": "187397042",
+        "name": "きらきら☆あんなたん",
+        "screen_name": "piropiroanna",
+        "location": "",
+        "description": "Anna Ogawa / ✨ Technical Mobile Solutions Consultant✨ @Google. All tweets are my own. 毎月 #ウェブマスターオフィスアワー してます。みんな見てね！4/17、18の2日間 @ 六本木で #AMPConf 開催します🎉🎉",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1524,
+        "friends_count": 341,
+        "listed_count": 27,
+        "created_at": "Mon Sep 06 03:12:09 +0000 2010",
+        "favourites_count": 5180,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 11997,
+        "lang": "ja",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "0ABAB5",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme16/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme16/bg.gif",
         "profile_background_tile": true,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/1077151964536877058/SH7Iqxmx_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1077151964536877058/SH7Iqxmx_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/63631266/1483504342",
-        "profile_link_color": "0076BF",
-        "profile_sidebar_border_color": "000000",
-        "profile_sidebar_fill_color": "141414",
-        "profile_text_color": "22FF00",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/738338723079671809/eQ7cEs6F_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/738338723079671809/eQ7cEs6F_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/187397042/1350926365",
+        "profile_link_color": "FE620D",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDFFCC",
+        "profile_text_color": "333333",
         "profile_use_background_image": true,
         "has_extended_profile": false,
         "default_profile": false,
@@ -877,33 +539,812 @@
         "following": false,
         "follow_request_sent": false,
         "notifications": false,
-        "translator_type": "regular"
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": true,
+      "quoted_status_id": 1118047850762387500,
+      "quoted_status_id_str": "1118047850762387456",
+      "quoted_status": {
+        "created_at": "Tue Apr 16 07:05:54 +0000 2019",
+        "id": 1118047850762387500,
+        "id_str": "1118047850762387456",
+        "text": "Wowowowowow T-1 to #AMPConf in Tokyo! 楽しみ\n\nWe have a packed bi-lingual schedule, live-streams in 🇯🇵 and 🇺🇸 and plen… https://t.co/mmQgnEJ2yp",
+        "truncated": true,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "AMPConf",
+              "indices": [
+                19,
+                27
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/mmQgnEJ2yp",
+              "expanded_url": "https://twitter.com/i/web/status/1118047850762387456",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [
+                117,
+                140
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "ja",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 12999402,
+          "id_str": "12999402",
+          "name": "Paul Bakaus",
+          "screen_name": "pbakaus",
+          "location": "San Francisco, CA",
+          "description": "Head of AMP/CMS Developer Relations at Google • Semi-professional adventurer •  Created jQuery UI • Instagram: pbakaus",
+          "url": "https://t.co/VhzgnSG6Ag",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/VhzgnSG6Ag",
+                  "expanded_url": "http://paulbakaus.com",
+                  "display_url": "paulbakaus.com",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 10726,
+          "friends_count": 85,
+          "listed_count": 662,
+          "created_at": "Sun Feb 03 04:09:45 +0000 2008",
+          "favourites_count": 2164,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": true,
+          "verified": false,
+          "statuses_count": 10646,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "131516",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+          "profile_background_tile": true,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/971505121505853442/CarXkEGn_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/971505121505853442/CarXkEGn_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/12999402/1398326968",
+          "profile_link_color": "009999",
+          "profile_sidebar_border_color": "EEEEEE",
+          "profile_sidebar_fill_color": "EFEFEF",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": true,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 3,
+        "favorite_count": 15,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+      },
+      "retweet_count": 2,
+      "favorite_count": 4,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "ja"
+    },
+    "is_quote_status": true,
+    "quoted_status_id": 1118047850762387500,
+    "quoted_status_id_str": "1118047850762387456",
+    "retweet_count": 2,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "ja",
+    "timestamp": 1555414410000
+  },
+  {
+    "created_at": "Tue Apr 16 11:22:50 +0000 2019",
+    "id": 1118112508785463300,
+    "id_str": "1118112508785463296",
+    "text": "<strong>takano_seo:</strong> 明日朝早い日に限って帰りが遅くなる罠。 \n#AMPConf でお勉強してきます。",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "AMPConf",
+          "indices": [
+            21,
+            29
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "metadata": {
+      "iso_language_code": "ja",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": "takano_seo",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 3,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ja",
+    "timestamp": 1555413770000
+  },
+  {
+    "created_at": "Tue Apr 16 10:56:48 +0000 2019",
+    "id": 1118105956636692500,
+    "id_str": "1118105956636692480",
+    "text": "<strong>kshikida:</strong> RT @piropiroanna: 明日はみなさんお待ちかねの #AMPConf です。日英でライブ配信があるみたいなので、会場に来られない方々はぜひ YouTube で見てくださいね！盛り上がって行きたい😎😎 <a href=\"https://t.co/CXf8Nyiafu\" class=\"linkified\" target=\"_blank\">https://t.co/CXf8Nyiafu</a>",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "AMPConf",
+          "indices": [
+            32,
+            40
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "piropiroanna",
+          "name": "きらきら☆あんなたん",
+          "id": 187397042,
+          "id_str": "187397042",
+          "indices": [
+            3,
+            16
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/CXf8Nyiafu",
+          "expanded_url": "https://twitter.com/pbakaus/status/1118047850762387456",
+          "display_url": "twitter.com/pbakaus/status…",
+          "indices": [
+            106,
+            129
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "iso_language_code": "ja",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": "kshikida",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Tue Apr 16 10:55:25 +0000 2019",
+      "id": 1118105612074635300,
+      "id_str": "1118105612074635265",
+      "text": "明日はみなさんお待ちかねの #AMPConf です。日英でライブ配信があるみたいなので、会場に来られない方々はぜひ YouTube で見てくださいね！盛り上がって行きたい😎😎 https://t.co/CXf8Nyiafu",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "AMPConf",
+            "indices": [
+              14,
+              22
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/CXf8Nyiafu",
+            "expanded_url": "https://twitter.com/pbakaus/status/1118047850762387456",
+            "display_url": "twitter.com/pbakaus/status…",
+            "indices": [
+              88,
+              111
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "ja",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 187397042,
+        "id_str": "187397042",
+        "name": "きらきら☆あんなたん",
+        "screen_name": "piropiroanna",
+        "location": "",
+        "description": "Anna Ogawa / ✨ Technical Mobile Solutions Consultant✨ @Google. All tweets are my own. 毎月 #ウェブマスターオフィスアワー してます。みんな見てね！4/17、18の2日間 @ 六本木で #AMPConf 開催します🎉🎉",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1524,
+        "friends_count": 341,
+        "listed_count": 27,
+        "created_at": "Mon Sep 06 03:12:09 +0000 2010",
+        "favourites_count": 5180,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 11997,
+        "lang": "ja",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "0ABAB5",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme16/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme16/bg.gif",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/738338723079671809/eQ7cEs6F_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/738338723079671809/eQ7cEs6F_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/187397042/1350926365",
+        "profile_link_color": "FE620D",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDFFCC",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": true,
+      "quoted_status_id": 1118047850762387500,
+      "quoted_status_id_str": "1118047850762387456",
+      "quoted_status": {
+        "created_at": "Tue Apr 16 07:05:54 +0000 2019",
+        "id": 1118047850762387500,
+        "id_str": "1118047850762387456",
+        "text": "Wowowowowow T-1 to #AMPConf in Tokyo! 楽しみ\n\nWe have a packed bi-lingual schedule, live-streams in 🇯🇵 and 🇺🇸 and plen… https://t.co/mmQgnEJ2yp",
+        "truncated": true,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "AMPConf",
+              "indices": [
+                19,
+                27
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/mmQgnEJ2yp",
+              "expanded_url": "https://twitter.com/i/web/status/1118047850762387456",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [
+                117,
+                140
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "ja",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 12999402,
+          "id_str": "12999402",
+          "name": "Paul Bakaus",
+          "screen_name": "pbakaus",
+          "location": "San Francisco, CA",
+          "description": "Head of AMP/CMS Developer Relations at Google • Semi-professional adventurer •  Created jQuery UI • Instagram: pbakaus",
+          "url": "https://t.co/VhzgnSG6Ag",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/VhzgnSG6Ag",
+                  "expanded_url": "http://paulbakaus.com",
+                  "display_url": "paulbakaus.com",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 10726,
+          "friends_count": 85,
+          "listed_count": 662,
+          "created_at": "Sun Feb 03 04:09:45 +0000 2008",
+          "favourites_count": 2164,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": true,
+          "verified": false,
+          "statuses_count": 10646,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "131516",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+          "profile_background_tile": true,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/971505121505853442/CarXkEGn_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/971505121505853442/CarXkEGn_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/12999402/1398326968",
+          "profile_link_color": "009999",
+          "profile_sidebar_border_color": "EEEEEE",
+          "profile_sidebar_fill_color": "EFEFEF",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": true,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 3,
+        "favorite_count": 15,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+      },
+      "retweet_count": 2,
+      "favorite_count": 4,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "ja"
+    },
+    "is_quote_status": true,
+    "quoted_status_id": 1118047850762387500,
+    "quoted_status_id_str": "1118047850762387456",
+    "retweet_count": 2,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "ja",
+    "timestamp": 1555412208000
+  },
+  {
+    "created_at": "Tue Apr 16 10:55:25 +0000 2019",
+    "id": 1118105612074635300,
+    "id_str": "1118105612074635265",
+    "text": "<strong>piropiroanna:</strong> 明日はみなさんお待ちかねの #AMPConf です。日英でライブ配信があるみたいなので、会場に来られない方々はぜひ YouTube で見てくださいね！盛り上がって行きたい😎😎 <a href=\"https://t.co/CXf8Nyiafu\" class=\"linkified\" target=\"_blank\">https://t.co/CXf8Nyiafu</a>",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "AMPConf",
+          "indices": [
+            14,
+            22
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/CXf8Nyiafu",
+          "expanded_url": "https://twitter.com/pbakaus/status/1118047850762387456",
+          "display_url": "twitter.com/pbakaus/status…",
+          "indices": [
+            88,
+            111
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "iso_language_code": "ja",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": "piropiroanna",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1118047850762387500,
+    "quoted_status_id_str": "1118047850762387456",
+    "quoted_status": {
+      "created_at": "Tue Apr 16 07:05:54 +0000 2019",
+      "id": 1118047850762387500,
+      "id_str": "1118047850762387456",
+      "text": "Wowowowowow T-1 to #AMPConf in Tokyo! 楽しみ\n\nWe have a packed bi-lingual schedule, live-streams in 🇯🇵 and 🇺🇸 and plen… https://t.co/mmQgnEJ2yp",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "AMPConf",
+            "indices": [
+              19,
+              27
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/mmQgnEJ2yp",
+            "expanded_url": "https://twitter.com/i/web/status/1118047850762387456",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "ja",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 12999402,
+        "id_str": "12999402",
+        "name": "Paul Bakaus",
+        "screen_name": "pbakaus",
+        "location": "San Francisco, CA",
+        "description": "Head of AMP/CMS Developer Relations at Google • Semi-professional adventurer •  Created jQuery UI • Instagram: pbakaus",
+        "url": "https://t.co/VhzgnSG6Ag",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/VhzgnSG6Ag",
+                "expanded_url": "http://paulbakaus.com",
+                "display_url": "paulbakaus.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 10726,
+        "friends_count": 85,
+        "listed_count": 662,
+        "created_at": "Sun Feb 03 04:09:45 +0000 2008",
+        "favourites_count": 2164,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 10646,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "131516",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/971505121505853442/CarXkEGn_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/971505121505853442/CarXkEGn_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/12999402/1398326968",
+        "profile_link_color": "009999",
+        "profile_sidebar_border_color": "EEEEEE",
+        "profile_sidebar_fill_color": "EFEFEF",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
       },
       "geo": null,
       "coordinates": null,
       "place": null,
       "contributors": null,
       "is_quote_status": false,
-      "retweet_count": 8,
-      "favorite_count": 43,
+      "retweet_count": 3,
+      "favorite_count": 15,
       "favorited": false,
       "retweeted": false,
       "possibly_sensitive": false,
       "lang": "ja"
     },
-    "retweet_count": 0,
-    "favorite_count": 0,
+    "retweet_count": 2,
+    "favorite_count": 4,
     "favorited": false,
     "retweeted": false,
     "possibly_sensitive": false,
     "lang": "ja",
-    "timestamp": 1555382487000
+    "timestamp": 1555412125000
   },
   {
-    "created_at": "Tue Apr 16 02:39:50 +0000 2019",
-    "id": 1117980893665087500,
-    "id_str": "1117980893665087489",
-    "text": "<strong>RyanWarrender:</strong> RT @AMPhtml: Some exciting announcements are coming to #AMPStories at #AMPConf! Tune in tomorrow for a whirlwind tour of everything new in…",
+    "created_at": "Tue Apr 16 10:43:57 +0000 2019",
+    "id": 1118102726179573800,
+    "id_str": "1118102726179573760",
+    "text": "<strong>tkdysk:</strong> RT @googledevjp: 🗼🌸明日あさって、ここ東京で #AMPConf 2019 が開幕！リッチ アニメーション、動的なコンテンツ、Dev Ops やマネタイゼーションなど、Web における良質なユーザー体験を実現するためのすべてを、一緒に見ていきましょう。ライブスト…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "AMPConf",
+          "indices": [
+            32,
+            40
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "googledevjp",
+          "name": "Google Devs Japan",
+          "id": 87913252,
+          "id_str": "87913252",
+          "indices": [
+            3,
+            15
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "metadata": {
+      "iso_language_code": "ja",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": "tkdysk",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Tue Apr 16 04:44:53 +0000 2019",
+      "id": 1118012363725127700,
+      "id_str": "1118012363725127680",
+      "text": "🗼🌸明日あさって、ここ東京で #AMPConf 2019 が開幕！リッチ アニメーション、動的なコンテンツ、Dev Ops やマネタイゼーションなど、Web における良質なユーザー体験を実現するためのすべてを、一緒に見ていきましょ… https://t.co/DytpjVo1MZ",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "AMPConf",
+            "indices": [
+              15,
+              23
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/DytpjVo1MZ",
+            "expanded_url": "https://twitter.com/i/web/status/1118012363725127680",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "ja",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 87913252,
+        "id_str": "87913252",
+        "name": "Google Devs Japan",
+        "screen_name": "googledevjp",
+        "location": "六本木ヒルズ",
+        "description": "日本の Google Developers チームがニュースやアップデート、イベント情報などを発信します。",
+        "url": "https://t.co/53pwWSlPZF",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/53pwWSlPZF",
+                "expanded_url": "http://developers-jp.googleblog.com/",
+                "display_url": "developers-jp.googleblog.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 29638,
+        "friends_count": 25,
+        "listed_count": 1398,
+        "created_at": "Fri Nov 06 10:40:14 +0000 2009",
+        "favourites_count": 66,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": true,
+        "statuses_count": 3922,
+        "lang": "ja",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "FFFFFF",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1113283591486603265/YhRL_Wjy_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1113283591486603265/YhRL_Wjy_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/87913252/1555379033",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 10,
+      "favorite_count": 18,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "ja"
+    },
+    "is_quote_status": false,
+    "retweet_count": 10,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ja",
+    "timestamp": 1555411437000
+  },
+  {
+    "created_at": "Tue Apr 16 10:03:56 +0000 2019",
+    "id": 1118092655165091800,
+    "id_str": "1118092655165091840",
+    "text": "<strong>MartinSchierle:</strong> RT @AMPhtml: Some exciting announcements are coming to #AMPStories at #AMPConf! Tune in tomorrow for a whirlwind tour of everything new in…",
     "truncated": false,
     "entities": {
       "hashtags": [
@@ -941,13 +1382,13 @@
       "iso_language_code": "en",
       "result_type": "recent"
     },
-    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
     "in_reply_to_status_id": null,
     "in_reply_to_status_id_str": null,
     "in_reply_to_user_id": null,
     "in_reply_to_user_id_str": null,
     "in_reply_to_screen_name": null,
-    "user": "RyanWarrender",
+    "user": "MartinSchierle",
     "geo": null,
     "coordinates": null,
     "place": null,
@@ -1036,7 +1477,7 @@
           }
         },
         "protected": false,
-        "followers_count": 14588,
+        "followers_count": 14600,
         "friends_count": 22,
         "listed_count": 299,
         "created_at": "Fri Sep 04 18:17:49 +0000 2015",
@@ -1075,26 +1516,26 @@
       "place": null,
       "contributors": null,
       "is_quote_status": false,
-      "retweet_count": 8,
-      "favorite_count": 16,
+      "retweet_count": 12,
+      "favorite_count": 26,
       "favorited": false,
       "retweeted": false,
       "possibly_sensitive": false,
       "lang": "en"
     },
     "is_quote_status": false,
-    "retweet_count": 8,
+    "retweet_count": 12,
     "favorite_count": 0,
     "favorited": false,
     "retweeted": false,
     "lang": "en",
-    "timestamp": 1555382390000
+    "timestamp": 1555409036000
   },
   {
-    "created_at": "Tue Apr 16 02:02:00 +0000 2019",
-    "id": 1117971372561408000,
-    "id_str": "1117971372561408001",
-    "text": "<strong>apes01234:</strong> RT @AMPhtml: .@CrystalOnScript will be on hand tomorrow to welcome everyone to #AMPConf! We have a full day of announcements, case studies…",
+    "created_at": "Tue Apr 16 09:52:21 +0000 2019",
+    "id": 1118089738366459900,
+    "id_str": "1118089738366459904",
+    "text": "<strong>David_angus:</strong> RT @AMPhtml: .@CrystalOnScript will be on hand tomorrow to welcome everyone to #AMPConf! We have a full day of announcements, case studies…",
     "truncated": false,
     "entities": {
       "hashtags": [
@@ -1126,6 +1567,201 @@
           "indices": [
             14,
             30
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": "David_angus",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Tue Apr 16 01:42:05 +0000 2019",
+      "id": 1117966358472302600,
+      "id_str": "1117966358472302593",
+      "text": ".@CrystalOnScript will be on hand tomorrow to welcome everyone to #AMPConf! We have a full day of announcements, ca… https://t.co/IHe8EWFL93",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "AMPConf",
+            "indices": [
+              66,
+              74
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "CrystalOnScript",
+            "name": "Crystal Lambert",
+            "id": 1180820016,
+            "id_str": "1180820016",
+            "indices": [
+              1,
+              17
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/IHe8EWFL93",
+            "expanded_url": "https://twitter.com/i/web/status/1117966358472302593",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Twitter Media Studio</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3450662892,
+        "id_str": "3450662892",
+        "name": "AMP Project",
+        "screen_name": "AMPhtml",
+        "location": "",
+        "description": "Official account of the AMP Project, short for Accelerated Mobile Pages. Follow for news, insights and support on AMP // YouTube → https://t.co/46s0RypmQA",
+        "url": "https://t.co/bJvrGQhALy",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/bJvrGQhALy",
+                "expanded_url": "https://amp.dev/",
+                "display_url": "amp.dev",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "https://t.co/46s0RypmQA",
+                "expanded_url": "http://goo.gl/DSP17m",
+                "display_url": "goo.gl/DSP17m",
+                "indices": [
+                  131,
+                  154
+                ]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 14600,
+        "friends_count": 22,
+        "listed_count": 299,
+        "created_at": "Fri Sep 04 18:17:49 +0000 2015",
+        "favourites_count": 727,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 1087,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1042433595296690176/xQmWsl4M_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1042433595296690176/xQmWsl4M_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3450662892/1551907061",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 10,
+      "favorite_count": 24,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 10,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "timestamp": 1555408341000
+  },
+  {
+    "created_at": "Tue Apr 16 09:08:35 +0000 2019",
+    "id": 1118078725864722400,
+    "id_str": "1118078725864722432",
+    "text": "<strong>liamthorpeyoung:</strong> RT @AMPhtml: Some exciting announcements are coming to #AMPStories at #AMPConf! Tune in tomorrow for a whirlwind tour of everything new in…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "AMPStories",
+          "indices": [
+            55,
+            66
+          ]
+        },
+        {
+          "text": "AMPConf",
+          "indices": [
+            70,
+            78
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "AMPhtml",
+          "name": "AMP Project",
+          "id": 3450662892,
+          "id_str": "3450662892",
+          "indices": [
+            3,
+            11
           ]
         }
       ],
@@ -1141,44 +1777,40 @@
     "in_reply_to_user_id": null,
     "in_reply_to_user_id_str": null,
     "in_reply_to_screen_name": null,
-    "user": "apes01234",
+    "user": "liamthorpeyoung",
     "geo": null,
     "coordinates": null,
     "place": null,
     "contributors": null,
     "retweeted_status": {
-      "created_at": "Tue Apr 16 01:42:05 +0000 2019",
-      "id": 1117966358472302600,
-      "id_str": "1117966358472302593",
-      "text": ".@CrystalOnScript will be on hand tomorrow to welcome everyone to #AMPConf! We have a full day of announcements, ca… https://t.co/IHe8EWFL93",
+      "created_at": "Mon Apr 15 22:24:42 +0000 2019",
+      "id": 1117916687477592000,
+      "id_str": "1117916687477592065",
+      "text": "Some exciting announcements are coming to #AMPStories at #AMPConf! Tune in tomorrow for a whirlwind tour of everyth… https://t.co/bRNfYmQgdR",
       "truncated": true,
       "entities": {
         "hashtags": [
           {
+            "text": "AMPStories",
+            "indices": [
+              42,
+              53
+            ]
+          },
+          {
             "text": "AMPConf",
             "indices": [
-              66,
-              74
+              57,
+              65
             ]
           }
         ],
         "symbols": [],
-        "user_mentions": [
-          {
-            "screen_name": "CrystalOnScript",
-            "name": "Crystal Lambert",
-            "id": 1180820016,
-            "id_str": "1180820016",
-            "indices": [
-              1,
-              17
-            ]
-          }
-        ],
+        "user_mentions": [],
         "urls": [
           {
-            "url": "https://t.co/IHe8EWFL93",
-            "expanded_url": "https://twitter.com/i/web/status/1117966358472302593",
+            "url": "https://t.co/bRNfYmQgdR",
+            "expanded_url": "https://twitter.com/i/web/status/1117916687477592065",
             "display_url": "twitter.com/i/web/status/1…",
             "indices": [
               117,
@@ -1191,7 +1823,7 @@
         "iso_language_code": "en",
         "result_type": "recent"
       },
-      "source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Twitter Media Studio</a>",
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
       "in_reply_to_status_id": null,
       "in_reply_to_status_id_str": null,
       "in_reply_to_user_id": null,
@@ -1234,7 +1866,7 @@
           }
         },
         "protected": false,
-        "followers_count": 14588,
+        "followers_count": 14600,
         "friends_count": 22,
         "listed_count": 299,
         "created_at": "Fri Sep 04 18:17:49 +0000 2015",
@@ -1273,34 +1905,209 @@
       "place": null,
       "contributors": null,
       "is_quote_status": false,
-      "retweet_count": 3,
-      "favorite_count": 6,
+      "retweet_count": 12,
+      "favorite_count": 26,
       "favorited": false,
       "retweeted": false,
       "possibly_sensitive": false,
       "lang": "en"
     },
     "is_quote_status": false,
-    "retweet_count": 3,
+    "retweet_count": 12,
     "favorite_count": 0,
     "favorited": false,
     "retweeted": false,
     "lang": "en",
-    "timestamp": 1555380120000
+    "timestamp": 1555405715000
   },
   {
-    "created_at": "Tue Apr 16 01:58:55 +0000 2019",
-    "id": 1117970597407969300,
-    "id_str": "1117970597407969280",
-    "text": "<strong>grelam:</strong> RT @AMPhtml: .@CrystalOnScript will be on hand tomorrow to welcome everyone to #AMPConf! We have a full day of announcements, case studies…",
+    "created_at": "Tue Apr 16 09:00:15 +0000 2019",
+    "id": 1118076626053386200,
+    "id_str": "1118076626053386246",
+    "text": "<strong>jalinder:</strong> RT @pbakaus: Wowowowowow T-1 to #AMPConf in Tokyo! 楽しみ\n\nWe have a packed bi-lingual schedule, live-streams in 🇯🇵 and 🇺🇸 and plenty of annou…",
     "truncated": false,
     "entities": {
       "hashtags": [
         {
           "text": "AMPConf",
           "indices": [
-            79,
-            87
+            32,
+            40
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "pbakaus",
+          "name": "Paul Bakaus",
+          "id": 12999402,
+          "id_str": "12999402",
+          "indices": [
+            3,
+            11
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "metadata": {
+      "iso_language_code": "ja",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": "jalinder",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Tue Apr 16 07:05:54 +0000 2019",
+      "id": 1118047850762387500,
+      "id_str": "1118047850762387456",
+      "text": "Wowowowowow T-1 to #AMPConf in Tokyo! 楽しみ\n\nWe have a packed bi-lingual schedule, live-streams in 🇯🇵 and 🇺🇸 and plen… https://t.co/mmQgnEJ2yp",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "AMPConf",
+            "indices": [
+              19,
+              27
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/mmQgnEJ2yp",
+            "expanded_url": "https://twitter.com/i/web/status/1118047850762387456",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "ja",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 12999402,
+        "id_str": "12999402",
+        "name": "Paul Bakaus",
+        "screen_name": "pbakaus",
+        "location": "San Francisco, CA",
+        "description": "Head of AMP/CMS Developer Relations at Google • Semi-professional adventurer •  Created jQuery UI • Instagram: pbakaus",
+        "url": "https://t.co/VhzgnSG6Ag",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/VhzgnSG6Ag",
+                "expanded_url": "http://paulbakaus.com",
+                "display_url": "paulbakaus.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 10726,
+        "friends_count": 85,
+        "listed_count": 662,
+        "created_at": "Sun Feb 03 04:09:45 +0000 2008",
+        "favourites_count": 2164,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 10646,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "131516",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/971505121505853442/CarXkEGn_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/971505121505853442/CarXkEGn_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/12999402/1398326968",
+        "profile_link_color": "009999",
+        "profile_sidebar_border_color": "EEEEEE",
+        "profile_sidebar_fill_color": "EFEFEF",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 3,
+      "favorite_count": 15,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "ja"
+    },
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "ja",
+    "timestamp": 1555405215000
+  },
+  {
+    "created_at": "Tue Apr 16 09:00:05 +0000 2019",
+    "id": 1118076584496222200,
+    "id_str": "1118076584496222208",
+    "text": "<strong>jalinder:</strong> RT @AMPhtml: Some exciting announcements are coming to #AMPStories at #AMPConf! Tune in tomorrow for a whirlwind tour of everything new in…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "AMPStories",
+          "indices": [
+            55,
+            66
+          ]
+        },
+        {
+          "text": "AMPConf",
+          "indices": [
+            70,
+            78
           ]
         }
       ],
@@ -1315,16 +2122,6 @@
             3,
             11
           ]
-        },
-        {
-          "screen_name": "CrystalOnScript",
-          "name": "Crystal Lambert",
-          "id": 1180820016,
-          "id_str": "1180820016",
-          "indices": [
-            14,
-            30
-          ]
         }
       ],
       "urls": []
@@ -1333,50 +2130,46 @@
       "iso_language_code": "en",
       "result_type": "recent"
     },
-    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
     "in_reply_to_status_id": null,
     "in_reply_to_status_id_str": null,
     "in_reply_to_user_id": null,
     "in_reply_to_user_id_str": null,
     "in_reply_to_screen_name": null,
-    "user": "grelam",
+    "user": "jalinder",
     "geo": null,
     "coordinates": null,
     "place": null,
     "contributors": null,
     "retweeted_status": {
-      "created_at": "Tue Apr 16 01:42:05 +0000 2019",
-      "id": 1117966358472302600,
-      "id_str": "1117966358472302593",
-      "text": ".@CrystalOnScript will be on hand tomorrow to welcome everyone to #AMPConf! We have a full day of announcements, ca… https://t.co/IHe8EWFL93",
+      "created_at": "Mon Apr 15 22:24:42 +0000 2019",
+      "id": 1117916687477592000,
+      "id_str": "1117916687477592065",
+      "text": "Some exciting announcements are coming to #AMPStories at #AMPConf! Tune in tomorrow for a whirlwind tour of everyth… https://t.co/bRNfYmQgdR",
       "truncated": true,
       "entities": {
         "hashtags": [
           {
+            "text": "AMPStories",
+            "indices": [
+              42,
+              53
+            ]
+          },
+          {
             "text": "AMPConf",
             "indices": [
-              66,
-              74
+              57,
+              65
             ]
           }
         ],
         "symbols": [],
-        "user_mentions": [
-          {
-            "screen_name": "CrystalOnScript",
-            "name": "Crystal Lambert",
-            "id": 1180820016,
-            "id_str": "1180820016",
-            "indices": [
-              1,
-              17
-            ]
-          }
-        ],
+        "user_mentions": [],
         "urls": [
           {
-            "url": "https://t.co/IHe8EWFL93",
-            "expanded_url": "https://twitter.com/i/web/status/1117966358472302593",
+            "url": "https://t.co/bRNfYmQgdR",
+            "expanded_url": "https://twitter.com/i/web/status/1117916687477592065",
             "display_url": "twitter.com/i/web/status/1…",
             "indices": [
               117,
@@ -1389,7 +2182,7 @@
         "iso_language_code": "en",
         "result_type": "recent"
       },
-      "source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Twitter Media Studio</a>",
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
       "in_reply_to_status_id": null,
       "in_reply_to_status_id_str": null,
       "in_reply_to_user_id": null,
@@ -1432,7 +2225,7 @@
           }
         },
         "protected": false,
-        "followers_count": 14588,
+        "followers_count": 14600,
         "friends_count": 22,
         "listed_count": 299,
         "created_at": "Fri Sep 04 18:17:49 +0000 2015",
@@ -1471,224 +2264,26 @@
       "place": null,
       "contributors": null,
       "is_quote_status": false,
-      "retweet_count": 3,
-      "favorite_count": 6,
+      "retweet_count": 12,
+      "favorite_count": 26,
       "favorited": false,
       "retweeted": false,
       "possibly_sensitive": false,
       "lang": "en"
     },
     "is_quote_status": false,
-    "retweet_count": 3,
+    "retweet_count": 12,
     "favorite_count": 0,
     "favorited": false,
     "retweeted": false,
     "lang": "en",
-    "timestamp": 1555379935000
+    "timestamp": 1555405205000
   },
   {
-    "created_at": "Tue Apr 16 01:45:23 +0000 2019",
-    "id": 1117967189540085800,
-    "id_str": "1117967189540085761",
-    "text": "<strong>agektmr:</strong> RT @AMPhtml: .@CrystalOnScript will be on hand tomorrow to welcome everyone to #AMPConf! We have a full day of announcements, case studies…",
-    "truncated": false,
-    "entities": {
-      "hashtags": [
-        {
-          "text": "AMPConf",
-          "indices": [
-            79,
-            87
-          ]
-        }
-      ],
-      "symbols": [],
-      "user_mentions": [
-        {
-          "screen_name": "AMPhtml",
-          "name": "AMP Project",
-          "id": 3450662892,
-          "id_str": "3450662892",
-          "indices": [
-            3,
-            11
-          ]
-        },
-        {
-          "screen_name": "CrystalOnScript",
-          "name": "Crystal Lambert",
-          "id": 1180820016,
-          "id_str": "1180820016",
-          "indices": [
-            14,
-            30
-          ]
-        }
-      ],
-      "urls": []
-    },
-    "metadata": {
-      "iso_language_code": "en",
-      "result_type": "recent"
-    },
-    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
-    "in_reply_to_status_id": null,
-    "in_reply_to_status_id_str": null,
-    "in_reply_to_user_id": null,
-    "in_reply_to_user_id_str": null,
-    "in_reply_to_screen_name": null,
-    "user": "agektmr",
-    "geo": null,
-    "coordinates": null,
-    "place": null,
-    "contributors": null,
-    "retweeted_status": {
-      "created_at": "Tue Apr 16 01:42:05 +0000 2019",
-      "id": 1117966358472302600,
-      "id_str": "1117966358472302593",
-      "text": ".@CrystalOnScript will be on hand tomorrow to welcome everyone to #AMPConf! We have a full day of announcements, ca… https://t.co/IHe8EWFL93",
-      "truncated": true,
-      "entities": {
-        "hashtags": [
-          {
-            "text": "AMPConf",
-            "indices": [
-              66,
-              74
-            ]
-          }
-        ],
-        "symbols": [],
-        "user_mentions": [
-          {
-            "screen_name": "CrystalOnScript",
-            "name": "Crystal Lambert",
-            "id": 1180820016,
-            "id_str": "1180820016",
-            "indices": [
-              1,
-              17
-            ]
-          }
-        ],
-        "urls": [
-          {
-            "url": "https://t.co/IHe8EWFL93",
-            "expanded_url": "https://twitter.com/i/web/status/1117966358472302593",
-            "display_url": "twitter.com/i/web/status/1…",
-            "indices": [
-              117,
-              140
-            ]
-          }
-        ]
-      },
-      "metadata": {
-        "iso_language_code": "en",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Twitter Media Studio</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 3450662892,
-        "id_str": "3450662892",
-        "name": "AMP Project",
-        "screen_name": "AMPhtml",
-        "location": "",
-        "description": "Official account of the AMP Project, short for Accelerated Mobile Pages. Follow for news, insights and support on AMP // YouTube → https://t.co/46s0RypmQA",
-        "url": "https://t.co/bJvrGQhALy",
-        "entities": {
-          "url": {
-            "urls": [
-              {
-                "url": "https://t.co/bJvrGQhALy",
-                "expanded_url": "https://amp.dev/",
-                "display_url": "amp.dev",
-                "indices": [
-                  0,
-                  23
-                ]
-              }
-            ]
-          },
-          "description": {
-            "urls": [
-              {
-                "url": "https://t.co/46s0RypmQA",
-                "expanded_url": "http://goo.gl/DSP17m",
-                "display_url": "goo.gl/DSP17m",
-                "indices": [
-                  131,
-                  154
-                ]
-              }
-            ]
-          }
-        },
-        "protected": false,
-        "followers_count": 14588,
-        "friends_count": 22,
-        "listed_count": 299,
-        "created_at": "Fri Sep 04 18:17:49 +0000 2015",
-        "favourites_count": 727,
-        "utc_offset": null,
-        "time_zone": null,
-        "geo_enabled": false,
-        "verified": false,
-        "statuses_count": 1087,
-        "lang": "en",
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "C0DEED",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/1042433595296690176/xQmWsl4M_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1042433595296690176/xQmWsl4M_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3450662892/1551907061",
-        "profile_link_color": "1DA1F2",
-        "profile_sidebar_border_color": "C0DEED",
-        "profile_sidebar_fill_color": "DDEEF6",
-        "profile_text_color": "333333",
-        "profile_use_background_image": true,
-        "has_extended_profile": false,
-        "default_profile": true,
-        "default_profile_image": false,
-        "following": true,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "is_quote_status": false,
-      "retweet_count": 3,
-      "favorite_count": 6,
-      "favorited": false,
-      "retweeted": false,
-      "possibly_sensitive": false,
-      "lang": "en"
-    },
-    "is_quote_status": false,
-    "retweet_count": 3,
-    "favorite_count": 0,
-    "favorited": false,
-    "retweeted": false,
-    "lang": "en",
-    "timestamp": 1555379123000
-  },
-  {
-    "created_at": "Tue Apr 16 01:44:44 +0000 2019",
-    "id": 1117967024439943200,
-    "id_str": "1117967024439943168",
-    "text": "<strong>ElrashidCo:</strong> RT @AMPhtml: #AMPConf 2019 will be coming to you live from 🌸 Tokyo 🌸 April 17-18! We can't wait to show you what the future holds for the A…",
+    "created_at": "Tue Apr 16 08:42:19 +0000 2019",
+    "id": 1118072113481470000,
+    "id_str": "1118072113481469952",
+    "text": "<strong>andreafed:</strong> RT @AMPhtml: #AMPConf 2019 will be coming to you live from 🌸 Tokyo 🌸 April 17-18! We can't wait to show you what the future holds for the A…",
     "truncated": false,
     "entities": {
       "hashtags": [
@@ -1719,13 +2314,13 @@
       "iso_language_code": "en",
       "result_type": "recent"
     },
-    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
     "in_reply_to_status_id": null,
     "in_reply_to_status_id_str": null,
     "in_reply_to_user_id": null,
     "in_reply_to_user_id_str": null,
     "in_reply_to_screen_name": null,
-    "user": "ElrashidCo",
+    "user": "andreafed",
     "geo": null,
     "coordinates": null,
     "place": null,
@@ -1807,7 +2402,7 @@
           }
         },
         "protected": false,
-        "followers_count": 14588,
+        "followers_count": 14600,
         "friends_count": 22,
         "listed_count": 299,
         "created_at": "Fri Sep 04 18:17:49 +0000 2015",
@@ -1846,242 +2441,29 @@
       "place": null,
       "contributors": null,
       "is_quote_status": false,
-      "retweet_count": 19,
-      "favorite_count": 52,
+      "retweet_count": 21,
+      "favorite_count": 56,
       "favorited": false,
       "retweeted": false,
       "possibly_sensitive": false,
       "lang": "en"
     },
     "is_quote_status": false,
-    "retweet_count": 19,
+    "retweet_count": 21,
     "favorite_count": 0,
     "favorited": false,
     "retweeted": false,
     "lang": "en",
-    "timestamp": 1555379084000
+    "timestamp": 1555404139000
   },
   {
-    "created_at": "Tue Apr 16 01:42:05 +0000 2019",
-    "id": 1117966358472302600,
-    "id_str": "1117966358472302593",
-    "text": "<strong>AMPhtml:</strong> .@CrystalOnScript will be on hand tomorrow to welcome everyone to #AMPConf! We have a full day of announcements, ca… <a href=\"https://t.co/IHe8EWFL93\" class=\"linkified\" target=\"_blank\">https://t.co/IHe8EWFL93</a>",
-    "truncated": true,
-    "entities": {
-      "hashtags": [
-        {
-          "text": "AMPConf",
-          "indices": [
-            66,
-            74
-          ]
-        }
-      ],
-      "symbols": [],
-      "user_mentions": [
-        {
-          "screen_name": "CrystalOnScript",
-          "name": "Crystal Lambert",
-          "id": 1180820016,
-          "id_str": "1180820016",
-          "indices": [
-            1,
-            17
-          ]
-        }
-      ],
-      "urls": [
-        {
-          "url": "https://t.co/IHe8EWFL93",
-          "expanded_url": "https://twitter.com/i/web/status/1117966358472302593",
-          "display_url": "twitter.com/i/web/status/1…",
-          "indices": [
-            117,
-            140
-          ]
-        }
-      ]
-    },
-    "metadata": {
-      "iso_language_code": "en",
-      "result_type": "recent"
-    },
-    "source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Twitter Media Studio</a>",
-    "in_reply_to_status_id": null,
-    "in_reply_to_status_id_str": null,
-    "in_reply_to_user_id": null,
-    "in_reply_to_user_id_str": null,
-    "in_reply_to_screen_name": null,
-    "user": "AMPhtml",
-    "geo": null,
-    "coordinates": null,
-    "place": null,
-    "contributors": null,
-    "is_quote_status": false,
-    "retweet_count": 3,
-    "favorite_count": 6,
-    "favorited": false,
-    "retweeted": false,
-    "possibly_sensitive": false,
-    "lang": "en",
-    "timestamp": 1555378925000
-  },
-  {
-    "created_at": "Tue Apr 16 01:33:16 +0000 2019",
-    "id": 1117964139052224500,
-    "id_str": "1117964139052224512",
-    "text": "<strong>buyukgokcesu:</strong> @matt_lud Yep, especially with Mount Fuji in the background. :)\n#AMPConf <a href=\"https://t.co/0kjG16jWJu\" class=\"linkified\" target=\"_blank\">https://t.co/0kjG16jWJu</a>",
+    "created_at": "Tue Apr 16 08:37:58 +0000 2019",
+    "id": 1118071019854422000,
+    "id_str": "1118071019854422017",
+    "text": "<strong>visualstoryapp:</strong> RT @AMPhtml: ⚡️ AMP's mobile-friendly, quick-loading sites can connect users in parts of the world impacted by war or lacking internet infr…",
     "truncated": false,
     "entities": {
-      "hashtags": [
-        {
-          "text": "AMPConf",
-          "indices": [
-            64,
-            72
-          ]
-        }
-      ],
-      "symbols": [],
-      "user_mentions": [
-        {
-          "screen_name": "matt_lud",
-          "name": "Matt Ludwig",
-          "id": 312438644,
-          "id_str": "312438644",
-          "indices": [
-            0,
-            9
-          ]
-        }
-      ],
-      "urls": [],
-      "media": [
-        {
-          "id": 1117964127593386000,
-          "id_str": "1117964127593385984",
-          "indices": [
-            73,
-            96
-          ],
-          "media_url": "http://pbs.twimg.com/media/D4POc2jVUAAZzG6.jpg",
-          "media_url_https": "https://pbs.twimg.com/media/D4POc2jVUAAZzG6.jpg",
-          "url": "https://t.co/0kjG16jWJu",
-          "display_url": "pic.twitter.com/0kjG16jWJu",
-          "expanded_url": "https://twitter.com/buyukgokcesu/status/1117964139052224512/photo/1",
-          "type": "photo",
-          "sizes": {
-            "small": {
-              "w": 680,
-              "h": 510,
-              "resize": "fit"
-            },
-            "thumb": {
-              "w": 150,
-              "h": 150,
-              "resize": "crop"
-            },
-            "large": {
-              "w": 2048,
-              "h": 1536,
-              "resize": "fit"
-            },
-            "medium": {
-              "w": 1200,
-              "h": 900,
-              "resize": "fit"
-            }
-          }
-        }
-      ]
-    },
-    "extended_entities": {
-      "media": [
-        {
-          "id": 1117964127593386000,
-          "id_str": "1117964127593385984",
-          "indices": [
-            73,
-            96
-          ],
-          "media_url": "http://pbs.twimg.com/media/D4POc2jVUAAZzG6.jpg",
-          "media_url_https": "https://pbs.twimg.com/media/D4POc2jVUAAZzG6.jpg",
-          "url": "https://t.co/0kjG16jWJu",
-          "display_url": "pic.twitter.com/0kjG16jWJu",
-          "expanded_url": "https://twitter.com/buyukgokcesu/status/1117964139052224512/photo/1",
-          "type": "photo",
-          "sizes": {
-            "small": {
-              "w": 680,
-              "h": 510,
-              "resize": "fit"
-            },
-            "thumb": {
-              "w": 150,
-              "h": 150,
-              "resize": "crop"
-            },
-            "large": {
-              "w": 2048,
-              "h": 1536,
-              "resize": "fit"
-            },
-            "medium": {
-              "w": 1200,
-              "h": 900,
-              "resize": "fit"
-            }
-          }
-        }
-      ]
-    },
-    "metadata": {
-      "iso_language_code": "en",
-      "result_type": "recent"
-    },
-    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
-    "in_reply_to_status_id": 1117933609669709800,
-    "in_reply_to_status_id_str": "1117933609669709833",
-    "in_reply_to_user_id": 312438644,
-    "in_reply_to_user_id_str": "312438644",
-    "in_reply_to_screen_name": "matt_lud",
-    "user": "buyukgokcesu",
-    "geo": null,
-    "coordinates": null,
-    "place": null,
-    "contributors": null,
-    "is_quote_status": false,
-    "retweet_count": 0,
-    "favorite_count": 2,
-    "favorited": false,
-    "retweeted": false,
-    "possibly_sensitive": false,
-    "lang": "en",
-    "timestamp": 1555378396000
-  },
-  {
-    "created_at": "Tue Apr 16 01:11:46 +0000 2019",
-    "id": 1117958731461824500,
-    "id_str": "1117958731461824512",
-    "text": "<strong>TappableHQ:</strong> RT @AMPhtml: Some exciting announcements are coming to #AMPStories at #AMPConf! Tune in tomorrow for a whirlwind tour of everything new in…",
-    "truncated": false,
-    "entities": {
-      "hashtags": [
-        {
-          "text": "AMPStories",
-          "indices": [
-            55,
-            66
-          ]
-        },
-        {
-          "text": "AMPConf",
-          "indices": [
-            70,
-            78
-          ]
-        }
-      ],
+      "hashtags": [],
       "symbols": [],
       "user_mentions": [
         {
@@ -2107,40 +2489,25 @@
     "in_reply_to_user_id": null,
     "in_reply_to_user_id_str": null,
     "in_reply_to_screen_name": null,
-    "user": "TappableHQ",
+    "user": "visualstoryapp",
     "geo": null,
     "coordinates": null,
     "place": null,
     "contributors": null,
     "retweeted_status": {
-      "created_at": "Mon Apr 15 22:24:42 +0000 2019",
-      "id": 1117916687477592000,
-      "id_str": "1117916687477592065",
-      "text": "Some exciting announcements are coming to #AMPStories at #AMPConf! Tune in tomorrow for a whirlwind tour of everyth… https://t.co/bRNfYmQgdR",
+      "created_at": "Fri Apr 12 15:57:34 +0000 2019",
+      "id": 1116732097769558000,
+      "id_str": "1116732097769558016",
+      "text": "⚡️ AMP's mobile-friendly, quick-loading sites can connect users in parts of the world impacted by war or lacking in… https://t.co/ECxJzNnGQe",
       "truncated": true,
       "entities": {
-        "hashtags": [
-          {
-            "text": "AMPStories",
-            "indices": [
-              42,
-              53
-            ]
-          },
-          {
-            "text": "AMPConf",
-            "indices": [
-              57,
-              65
-            ]
-          }
-        ],
+        "hashtags": [],
         "symbols": [],
         "user_mentions": [],
         "urls": [
           {
-            "url": "https://t.co/bRNfYmQgdR",
-            "expanded_url": "https://twitter.com/i/web/status/1117916687477592065",
+            "url": "https://t.co/ECxJzNnGQe",
+            "expanded_url": "https://twitter.com/i/web/status/1116732097769558016",
             "display_url": "twitter.com/i/web/status/1…",
             "indices": [
               117,
@@ -2196,7 +2563,7 @@
           }
         },
         "protected": false,
-        "followers_count": 14588,
+        "followers_count": 14600,
         "friends_count": 22,
         "listed_count": 299,
         "created_at": "Fri Sep 04 18:17:49 +0000 2015",
@@ -2235,757 +2602,19 @@
       "place": null,
       "contributors": null,
       "is_quote_status": false,
-      "retweet_count": 8,
-      "favorite_count": 16,
+      "retweet_count": 5,
+      "favorite_count": 24,
       "favorited": false,
       "retweeted": false,
       "possibly_sensitive": false,
       "lang": "en"
     },
     "is_quote_status": false,
-    "retweet_count": 8,
+    "retweet_count": 5,
     "favorite_count": 0,
     "favorited": false,
     "retweeted": false,
     "lang": "en",
-    "timestamp": 1555377106000
-  },
-  {
-    "created_at": "Mon Apr 15 23:31:57 +0000 2019",
-    "id": 1117933609669709800,
-    "id_str": "1117933609669709833",
-    "text": "<strong>matt_lud:</strong> The view from #AMPConf this year is going to be awesome. See you tomorrow! <a href=\"https://t.co/vAc7NzGLx6\" class=\"linkified\" target=\"_blank\">https://t.co/vAc7NzGLx6</a> <a href=\"https://t.co/KA9fsaQVa8\" class=\"linkified\" target=\"_blank\">https://t.co/KA9fsaQVa8</a>",
-    "truncated": false,
-    "entities": {
-      "hashtags": [
-        {
-          "text": "AMPConf",
-          "indices": [
-            14,
-            22
-          ]
-        }
-      ],
-      "symbols": [],
-      "user_mentions": [],
-      "urls": [
-        {
-          "url": "https://t.co/vAc7NzGLx6",
-          "expanded_url": "http://amp.dev/events/amp-conf-2019",
-          "display_url": "amp.dev/events/amp-con…",
-          "indices": [
-            75,
-            98
-          ]
-        }
-      ],
-      "media": [
-        {
-          "id": 1117933596361158700,
-          "id_str": "1117933596361158656",
-          "indices": [
-            99,
-            122
-          ],
-          "media_url": "http://pbs.twimg.com/media/D4Oyrs2U8AAXjyG.jpg",
-          "media_url_https": "https://pbs.twimg.com/media/D4Oyrs2U8AAXjyG.jpg",
-          "url": "https://t.co/KA9fsaQVa8",
-          "display_url": "pic.twitter.com/KA9fsaQVa8",
-          "expanded_url": "https://twitter.com/matt_lud/status/1117933609669709833/photo/1",
-          "type": "photo",
-          "sizes": {
-            "medium": {
-              "w": 901,
-              "h": 1200,
-              "resize": "fit"
-            },
-            "thumb": {
-              "w": 150,
-              "h": 150,
-              "resize": "crop"
-            },
-            "small": {
-              "w": 510,
-              "h": 680,
-              "resize": "fit"
-            },
-            "large": {
-              "w": 1537,
-              "h": 2048,
-              "resize": "fit"
-            }
-          }
-        }
-      ]
-    },
-    "extended_entities": {
-      "media": [
-        {
-          "id": 1117933596361158700,
-          "id_str": "1117933596361158656",
-          "indices": [
-            99,
-            122
-          ],
-          "media_url": "http://pbs.twimg.com/media/D4Oyrs2U8AAXjyG.jpg",
-          "media_url_https": "https://pbs.twimg.com/media/D4Oyrs2U8AAXjyG.jpg",
-          "url": "https://t.co/KA9fsaQVa8",
-          "display_url": "pic.twitter.com/KA9fsaQVa8",
-          "expanded_url": "https://twitter.com/matt_lud/status/1117933609669709833/photo/1",
-          "type": "photo",
-          "sizes": {
-            "medium": {
-              "w": 901,
-              "h": 1200,
-              "resize": "fit"
-            },
-            "thumb": {
-              "w": 150,
-              "h": 150,
-              "resize": "crop"
-            },
-            "small": {
-              "w": 510,
-              "h": 680,
-              "resize": "fit"
-            },
-            "large": {
-              "w": 1537,
-              "h": 2048,
-              "resize": "fit"
-            }
-          }
-        }
-      ]
-    },
-    "metadata": {
-      "iso_language_code": "en",
-      "result_type": "recent"
-    },
-    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-    "in_reply_to_status_id": null,
-    "in_reply_to_status_id_str": null,
-    "in_reply_to_user_id": null,
-    "in_reply_to_user_id_str": null,
-    "in_reply_to_screen_name": null,
-    "user": "matt_lud",
-    "geo": null,
-    "coordinates": null,
-    "place": {
-      "id": "594fa6c6bc5b5ba9",
-      "url": "https://api.twitter.com/1.1/geo/id/594fa6c6bc5b5ba9.json",
-      "place_type": "city",
-      "name": "Minato-ku",
-      "full_name": "Minato-ku, Tokyo",
-      "country_code": "JP",
-      "country": "Japan",
-      "contained_within": [],
-      "bounding_box": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              139.708754,
-              35.622973
-            ],
-            [
-              139.782004,
-              35.622973
-            ],
-            [
-              139.782004,
-              35.682605
-            ],
-            [
-              139.708754,
-              35.682605
-            ]
-          ]
-        ]
-      },
-      "attributes": {}
-    },
-    "contributors": null,
-    "is_quote_status": false,
-    "retweet_count": 0,
-    "favorite_count": 5,
-    "favorited": false,
-    "retweeted": false,
-    "possibly_sensitive": false,
-    "lang": "en",
-    "timestamp": 1555371117000
-  },
-  {
-    "created_at": "Mon Apr 15 23:30:07 +0000 2019",
-    "id": 1117933150045212700,
-    "id_str": "1117933150045212672",
-    "text": "<strong>Ryosuke_Shiga:</strong> RT @AMPhtml: Some exciting announcements are coming to #AMPStories at #AMPConf! Tune in tomorrow for a whirlwind tour of everything new in…",
-    "truncated": false,
-    "entities": {
-      "hashtags": [
-        {
-          "text": "AMPStories",
-          "indices": [
-            55,
-            66
-          ]
-        },
-        {
-          "text": "AMPConf",
-          "indices": [
-            70,
-            78
-          ]
-        }
-      ],
-      "symbols": [],
-      "user_mentions": [
-        {
-          "screen_name": "AMPhtml",
-          "name": "AMP Project",
-          "id": 3450662892,
-          "id_str": "3450662892",
-          "indices": [
-            3,
-            11
-          ]
-        }
-      ],
-      "urls": []
-    },
-    "metadata": {
-      "iso_language_code": "en",
-      "result_type": "recent"
-    },
-    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-    "in_reply_to_status_id": null,
-    "in_reply_to_status_id_str": null,
-    "in_reply_to_user_id": null,
-    "in_reply_to_user_id_str": null,
-    "in_reply_to_screen_name": null,
-    "user": "Ryosuke_Shiga",
-    "geo": null,
-    "coordinates": null,
-    "place": null,
-    "contributors": null,
-    "retweeted_status": {
-      "created_at": "Mon Apr 15 22:24:42 +0000 2019",
-      "id": 1117916687477592000,
-      "id_str": "1117916687477592065",
-      "text": "Some exciting announcements are coming to #AMPStories at #AMPConf! Tune in tomorrow for a whirlwind tour of everyth… https://t.co/bRNfYmQgdR",
-      "truncated": true,
-      "entities": {
-        "hashtags": [
-          {
-            "text": "AMPStories",
-            "indices": [
-              42,
-              53
-            ]
-          },
-          {
-            "text": "AMPConf",
-            "indices": [
-              57,
-              65
-            ]
-          }
-        ],
-        "symbols": [],
-        "user_mentions": [],
-        "urls": [
-          {
-            "url": "https://t.co/bRNfYmQgdR",
-            "expanded_url": "https://twitter.com/i/web/status/1117916687477592065",
-            "display_url": "twitter.com/i/web/status/1…",
-            "indices": [
-              117,
-              140
-            ]
-          }
-        ]
-      },
-      "metadata": {
-        "iso_language_code": "en",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 3450662892,
-        "id_str": "3450662892",
-        "name": "AMP Project",
-        "screen_name": "AMPhtml",
-        "location": "",
-        "description": "Official account of the AMP Project, short for Accelerated Mobile Pages. Follow for news, insights and support on AMP // YouTube → https://t.co/46s0RypmQA",
-        "url": "https://t.co/bJvrGQhALy",
-        "entities": {
-          "url": {
-            "urls": [
-              {
-                "url": "https://t.co/bJvrGQhALy",
-                "expanded_url": "https://amp.dev/",
-                "display_url": "amp.dev",
-                "indices": [
-                  0,
-                  23
-                ]
-              }
-            ]
-          },
-          "description": {
-            "urls": [
-              {
-                "url": "https://t.co/46s0RypmQA",
-                "expanded_url": "http://goo.gl/DSP17m",
-                "display_url": "goo.gl/DSP17m",
-                "indices": [
-                  131,
-                  154
-                ]
-              }
-            ]
-          }
-        },
-        "protected": false,
-        "followers_count": 14588,
-        "friends_count": 22,
-        "listed_count": 299,
-        "created_at": "Fri Sep 04 18:17:49 +0000 2015",
-        "favourites_count": 727,
-        "utc_offset": null,
-        "time_zone": null,
-        "geo_enabled": false,
-        "verified": false,
-        "statuses_count": 1087,
-        "lang": "en",
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "C0DEED",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/1042433595296690176/xQmWsl4M_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1042433595296690176/xQmWsl4M_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3450662892/1551907061",
-        "profile_link_color": "1DA1F2",
-        "profile_sidebar_border_color": "C0DEED",
-        "profile_sidebar_fill_color": "DDEEF6",
-        "profile_text_color": "333333",
-        "profile_use_background_image": true,
-        "has_extended_profile": false,
-        "default_profile": true,
-        "default_profile_image": false,
-        "following": true,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "is_quote_status": false,
-      "retweet_count": 8,
-      "favorite_count": 16,
-      "favorited": false,
-      "retweeted": false,
-      "possibly_sensitive": false,
-      "lang": "en"
-    },
-    "is_quote_status": false,
-    "retweet_count": 8,
-    "favorite_count": 0,
-    "favorited": false,
-    "retweeted": false,
-    "lang": "en",
-    "timestamp": 1555371007000
-  },
-  {
-    "created_at": "Mon Apr 15 23:09:15 +0000 2019",
-    "id": 1117927895886913500,
-    "id_str": "1117927895886913537",
-    "text": "<strong>David_angus:</strong> RT @AMPhtml: Some exciting announcements are coming to #AMPStories at #AMPConf! Tune in tomorrow for a whirlwind tour of everything new in…",
-    "truncated": false,
-    "entities": {
-      "hashtags": [
-        {
-          "text": "AMPStories",
-          "indices": [
-            55,
-            66
-          ]
-        },
-        {
-          "text": "AMPConf",
-          "indices": [
-            70,
-            78
-          ]
-        }
-      ],
-      "symbols": [],
-      "user_mentions": [
-        {
-          "screen_name": "AMPhtml",
-          "name": "AMP Project",
-          "id": 3450662892,
-          "id_str": "3450662892",
-          "indices": [
-            3,
-            11
-          ]
-        }
-      ],
-      "urls": []
-    },
-    "metadata": {
-      "iso_language_code": "en",
-      "result_type": "recent"
-    },
-    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-    "in_reply_to_status_id": null,
-    "in_reply_to_status_id_str": null,
-    "in_reply_to_user_id": null,
-    "in_reply_to_user_id_str": null,
-    "in_reply_to_screen_name": null,
-    "user": "David_angus",
-    "geo": null,
-    "coordinates": null,
-    "place": null,
-    "contributors": null,
-    "retweeted_status": {
-      "created_at": "Mon Apr 15 22:24:42 +0000 2019",
-      "id": 1117916687477592000,
-      "id_str": "1117916687477592065",
-      "text": "Some exciting announcements are coming to #AMPStories at #AMPConf! Tune in tomorrow for a whirlwind tour of everyth… https://t.co/bRNfYmQgdR",
-      "truncated": true,
-      "entities": {
-        "hashtags": [
-          {
-            "text": "AMPStories",
-            "indices": [
-              42,
-              53
-            ]
-          },
-          {
-            "text": "AMPConf",
-            "indices": [
-              57,
-              65
-            ]
-          }
-        ],
-        "symbols": [],
-        "user_mentions": [],
-        "urls": [
-          {
-            "url": "https://t.co/bRNfYmQgdR",
-            "expanded_url": "https://twitter.com/i/web/status/1117916687477592065",
-            "display_url": "twitter.com/i/web/status/1…",
-            "indices": [
-              117,
-              140
-            ]
-          }
-        ]
-      },
-      "metadata": {
-        "iso_language_code": "en",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 3450662892,
-        "id_str": "3450662892",
-        "name": "AMP Project",
-        "screen_name": "AMPhtml",
-        "location": "",
-        "description": "Official account of the AMP Project, short for Accelerated Mobile Pages. Follow for news, insights and support on AMP // YouTube → https://t.co/46s0RypmQA",
-        "url": "https://t.co/bJvrGQhALy",
-        "entities": {
-          "url": {
-            "urls": [
-              {
-                "url": "https://t.co/bJvrGQhALy",
-                "expanded_url": "https://amp.dev/",
-                "display_url": "amp.dev",
-                "indices": [
-                  0,
-                  23
-                ]
-              }
-            ]
-          },
-          "description": {
-            "urls": [
-              {
-                "url": "https://t.co/46s0RypmQA",
-                "expanded_url": "http://goo.gl/DSP17m",
-                "display_url": "goo.gl/DSP17m",
-                "indices": [
-                  131,
-                  154
-                ]
-              }
-            ]
-          }
-        },
-        "protected": false,
-        "followers_count": 14588,
-        "friends_count": 22,
-        "listed_count": 299,
-        "created_at": "Fri Sep 04 18:17:49 +0000 2015",
-        "favourites_count": 727,
-        "utc_offset": null,
-        "time_zone": null,
-        "geo_enabled": false,
-        "verified": false,
-        "statuses_count": 1087,
-        "lang": "en",
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "C0DEED",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/1042433595296690176/xQmWsl4M_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1042433595296690176/xQmWsl4M_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3450662892/1551907061",
-        "profile_link_color": "1DA1F2",
-        "profile_sidebar_border_color": "C0DEED",
-        "profile_sidebar_fill_color": "DDEEF6",
-        "profile_text_color": "333333",
-        "profile_use_background_image": true,
-        "has_extended_profile": false,
-        "default_profile": true,
-        "default_profile_image": false,
-        "following": true,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "is_quote_status": false,
-      "retweet_count": 8,
-      "favorite_count": 16,
-      "favorited": false,
-      "retweeted": false,
-      "possibly_sensitive": false,
-      "lang": "en"
-    },
-    "is_quote_status": false,
-    "retweet_count": 8,
-    "favorite_count": 0,
-    "favorited": false,
-    "retweeted": false,
-    "lang": "en",
-    "timestamp": 1555369755000
-  },
-  {
-    "created_at": "Mon Apr 15 23:05:10 +0000 2019",
-    "id": 1117926868554879000,
-    "id_str": "1117926868554878976",
-    "text": "<strong>chrowa3:</strong> RT @AMPhtml: Some exciting announcements are coming to #AMPStories at #AMPConf! Tune in tomorrow for a whirlwind tour of everything new in…",
-    "truncated": false,
-    "entities": {
-      "hashtags": [
-        {
-          "text": "AMPStories",
-          "indices": [
-            55,
-            66
-          ]
-        },
-        {
-          "text": "AMPConf",
-          "indices": [
-            70,
-            78
-          ]
-        }
-      ],
-      "symbols": [],
-      "user_mentions": [
-        {
-          "screen_name": "AMPhtml",
-          "name": "AMP Project",
-          "id": 3450662892,
-          "id_str": "3450662892",
-          "indices": [
-            3,
-            11
-          ]
-        }
-      ],
-      "urls": []
-    },
-    "metadata": {
-      "iso_language_code": "en",
-      "result_type": "recent"
-    },
-    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-    "in_reply_to_status_id": null,
-    "in_reply_to_status_id_str": null,
-    "in_reply_to_user_id": null,
-    "in_reply_to_user_id_str": null,
-    "in_reply_to_screen_name": null,
-    "user": "chrowa3",
-    "geo": null,
-    "coordinates": null,
-    "place": null,
-    "contributors": null,
-    "retweeted_status": {
-      "created_at": "Mon Apr 15 22:24:42 +0000 2019",
-      "id": 1117916687477592000,
-      "id_str": "1117916687477592065",
-      "text": "Some exciting announcements are coming to #AMPStories at #AMPConf! Tune in tomorrow for a whirlwind tour of everyth… https://t.co/bRNfYmQgdR",
-      "truncated": true,
-      "entities": {
-        "hashtags": [
-          {
-            "text": "AMPStories",
-            "indices": [
-              42,
-              53
-            ]
-          },
-          {
-            "text": "AMPConf",
-            "indices": [
-              57,
-              65
-            ]
-          }
-        ],
-        "symbols": [],
-        "user_mentions": [],
-        "urls": [
-          {
-            "url": "https://t.co/bRNfYmQgdR",
-            "expanded_url": "https://twitter.com/i/web/status/1117916687477592065",
-            "display_url": "twitter.com/i/web/status/1…",
-            "indices": [
-              117,
-              140
-            ]
-          }
-        ]
-      },
-      "metadata": {
-        "iso_language_code": "en",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 3450662892,
-        "id_str": "3450662892",
-        "name": "AMP Project",
-        "screen_name": "AMPhtml",
-        "location": "",
-        "description": "Official account of the AMP Project, short for Accelerated Mobile Pages. Follow for news, insights and support on AMP // YouTube → https://t.co/46s0RypmQA",
-        "url": "https://t.co/bJvrGQhALy",
-        "entities": {
-          "url": {
-            "urls": [
-              {
-                "url": "https://t.co/bJvrGQhALy",
-                "expanded_url": "https://amp.dev/",
-                "display_url": "amp.dev",
-                "indices": [
-                  0,
-                  23
-                ]
-              }
-            ]
-          },
-          "description": {
-            "urls": [
-              {
-                "url": "https://t.co/46s0RypmQA",
-                "expanded_url": "http://goo.gl/DSP17m",
-                "display_url": "goo.gl/DSP17m",
-                "indices": [
-                  131,
-                  154
-                ]
-              }
-            ]
-          }
-        },
-        "protected": false,
-        "followers_count": 14588,
-        "friends_count": 22,
-        "listed_count": 299,
-        "created_at": "Fri Sep 04 18:17:49 +0000 2015",
-        "favourites_count": 727,
-        "utc_offset": null,
-        "time_zone": null,
-        "geo_enabled": false,
-        "verified": false,
-        "statuses_count": 1087,
-        "lang": "en",
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "C0DEED",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/1042433595296690176/xQmWsl4M_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1042433595296690176/xQmWsl4M_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3450662892/1551907061",
-        "profile_link_color": "1DA1F2",
-        "profile_sidebar_border_color": "C0DEED",
-        "profile_sidebar_fill_color": "DDEEF6",
-        "profile_text_color": "333333",
-        "profile_use_background_image": true,
-        "has_extended_profile": false,
-        "default_profile": true,
-        "default_profile_image": false,
-        "following": true,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "is_quote_status": false,
-      "retweet_count": 8,
-      "favorite_count": 16,
-      "favorited": false,
-      "retweeted": false,
-      "possibly_sensitive": false,
-      "lang": "en"
-    },
-    "is_quote_status": false,
-    "retweet_count": 8,
-    "favorite_count": 0,
-    "favorited": false,
-    "retweeted": false,
-    "lang": "en",
-    "timestamp": 1555369510000
+    "timestamp": 1555403878000
   }
 ]

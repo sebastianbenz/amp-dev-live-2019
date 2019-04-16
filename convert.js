@@ -7,8 +7,6 @@ try {
 
   const date = new Date()
   const dateString = `${date.getHours()}:${date.getMinutes()}`
-  console.log(dateString)
-  console.log(Date.parse('22:30'))
 
   const day1 = {
     id: 'day1',
@@ -64,19 +62,16 @@ function addSessions(agenda, speakers, date) {
     date.setHours(hours)
     const minutes = session.time.substring(2)
     date.setMinutes(minutes)
-    console.log(hours, minutes)
     const endDate = new Date(date.getTime())
     endDate.setMinutes(endDate.getMinutes() + 30)
-    console.log(date)
     const s = {
       title: session.title,
       description: session.description,
-      speakers: formatSpeakers(speakers, session.speakers),
+      speakers: formatSpeakers(speakers, session.speakers || (session.speaker ? [session.speaker] : [])),
       time: session.time,
       start: date.getTime(),
       end: endDate.getTime()
     }
-    console.log(s)
     result.push(s)
   }
   return result

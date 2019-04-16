@@ -13,13 +13,19 @@
         --color-primary: #005af0;
         --color-primary-text: white;
         --color-accent: #ffdc00;
-        --color-bg-light: #f6f8fa;
+        --color-bg-light: #dee6ef;
       }
       body {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        line-height: 1.6rem;
+        font-size: 1rem;
       }
       main {
-        padding: var(--header-height) .5rem;
+        padding: var(--header-height) 0;
+      }
+      main h2 {
+        margin-left: .5rem;
+        margin-right: .5rem;
       }
       button {
         background: var(--color-accent);
@@ -54,7 +60,7 @@
       .card {
         background: var(--color-bg-light);
         padding: .5rem;
-        margin: .5rem 0;
+        margin: .5rem;
         border-radius: 8px;
       }
     </style>
